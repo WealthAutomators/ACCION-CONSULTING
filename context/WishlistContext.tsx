@@ -13,7 +13,7 @@ interface WishlistContextType {
 const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
 
 export function WishlistProvider({ children }: { children: ReactNode }) {
-  const [wishlist, setWishlist, isHydrated] = useLocalStorage<string[]>("valuebuy-partners-wishlist", []);
+  const [wishlist, setWishlist, isHydrated] = useLocalStorage<string[]>("value-partners-wishlist", []);
 
   const toggleWishlist = useCallback(
     (productId: string) => {

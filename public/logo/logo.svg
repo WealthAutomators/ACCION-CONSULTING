@@ -1,35 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="44" viewBox="0 0 240 44" fill="none">
-  <!-- Shopping bag icon -->
-  <rect x="0" y="4" width="40" height="36" rx="10" fill="#0F4C81"/>
-  <path d="M12 16 C12 11 16 8 20 8 C24 8 28 11 28 16" stroke="#FF6B35" stroke-width="3" stroke-linecap="round" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="248" height="44" viewBox="0 0 248 44" fill="none">
+  <!-- Cube / box mark -->
+  <rect x="0" y="4" width="38" height="38" rx="8" fill="#1F2937"/>
+  <!-- emerald top edge accent -->
+  <path d="M0 12 C0 7.6 3.6 4 8 4 H30 C34.4 4 38 7.6 38 12 V15 H0 Z" fill="#10B981"/>
   <text
-    x="20"
-    y="26"
+    x="19"
+    y="29"
     text-anchor="middle"
     dominant-baseline="middle"
     fill="#FFFFFF"
     font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    font-size="13"
+    font-size="15"
     font-weight="800"
     letter-spacing="-0.5"
-  >VB</text>
+  >VP</text>
   <!-- Wordmark -->
   <text
     x="50"
     y="19"
-    fill="#0F4C81"
+    fill="#1F2937"
     font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    font-size="17"
+    font-size="16"
     font-weight="800"
-    letter-spacing="-0.3"
-  >VALUEBUY</text>
+    letter-spacing="-0.2"
+  >VALUE PARTNERS</text>
   <text
     x="50"
-    y="34"
-    fill="#FF6B35"
+    y="35"
+    fill="#10B981"
     font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
     font-size="10"
     font-weight="700"
-    letter-spacing="2"
-  >PARTNERS LLC</text>
+    letter-spacing="4"
+  >LLC</text>
 </svg>

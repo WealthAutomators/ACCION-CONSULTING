@@ -3,12 +3,9 @@ import { NavLink } from "@/types";
 export const navigationLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Shop", href: "/shop" },
-  { label: "Electronics", href: "/categories/electronics" },
-  { label: "Home & Kitchen", href: "/categories/home-kitchen" },
-  { label: "Beauty", href: "/categories/beauty" },
-  { label: "Sports", href: "/categories/sports-outdoors" },
-  { label: "Toys", href: "/categories/toys-games" },
+  { label: "Departments", href: "/categories" },
   { label: "Deals", href: "/shop?sale=true" },
+  { label: "Best Sellers", href: "/best-sellers" },
   { label: "New Arrivals", href: "/new-arrivals" },
   { label: "Contact", href: "/contact" },
 ];
@@ -20,23 +17,21 @@ export const utilityBarLinks = [
 ];
 
 export const footerLinks = {
-  marketplace: [
+  shop: [
     { label: "Shop All", href: "/shop" },
+    { label: "Departments", href: "/categories" },
     { label: "Electronics", href: "/categories/electronics" },
     { label: "Home & Kitchen", href: "/categories/home-kitchen" },
-    { label: "Beauty", href: "/categories/beauty" },
-    { label: "Sports", href: "/categories/sports-outdoors" },
-    { label: "Toys & Games", href: "/categories/toys-games" },
-    { label: "Deals", href: "/shop?sale=true" },
+    { label: "Best Sellers", href: "/best-sellers" },
     { label: "New Arrivals", href: "/new-arrivals" },
+    { label: "Deals", href: "/shop?sale=true" },
   ],
-  customerService: [
+  customerCare: [
     { label: "Contact Us", href: "/contact" },
     { label: "Track Order", href: "/track-order" },
     { label: "FAQs", href: "/faq" },
-    { label: "Shipping Policy", href: "/shipping" },
+    { label: "Shipping", href: "/shipping" },
     { label: "Returns", href: "/returns" },
-    { label: "Support", href: "/contact" },
   ],
   policies: [
     { label: "Privacy Policy", href: "/privacy" },

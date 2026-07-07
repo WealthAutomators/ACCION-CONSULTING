@@ -26,13 +26,13 @@ export default function AboutPage() {
           </div>
           <PageSection title="Our Story">
             <p>
-              VALUEBUY PARTNERS LLC was founded with a simple mission: make online shopping easier for
-              families by bringing together quality products across every category in one trusted
-              marketplace. From electronics and home essentials to toys, beauty, and gaming gear —
-              we curate products that deliver real value.
+              VALUE PARTNERS LLC was founded with a simple mission: make premium products easy to
+              shop for by bringing together quality goods across every department in one trusted
+              store. From electronics and home essentials to toys, beauty, and gaming gear — we
+              curate products that deliver real value at honest prices.
             </p>
             <p className="mt-4">
-              Based in West Chicago, Illinois, we work with reliable suppliers to offer competitive
+              Based in Chesapeake, Virginia, we work with reliable suppliers to offer competitive
               prices without compromising on quality. Every product in our catalog is selected with
               care, and our team is dedicated to making your shopping experience smooth from browsing
               to checkout.

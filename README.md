@@ -1,8 +1,8 @@
-# VALUEBUY PARTNERS LLC
+# VALUE PARTNERS LLC
 
-A production-quality, reusable ecommerce storefront template built with Next.js App Router, TypeScript, and Tailwind CSS.
+A production-quality, reusable ecommerce storefront built with Next.js App Router, TypeScript, and Tailwind CSS.
 
-This is the master template for VALUEBUY PARTNERS LLC — a general marketplace selling electronics, home essentials, beauty, toys, pet supplies, and more. Duplicate this repository and swap brand assets, colors, and data to launch new stores without rewriting components.
+VALUE PARTNERS LLC is a modern marketplace selling premium electronics, home essentials, beauty, toys, gaming gear, pet supplies, and more — quality products at honest prices. Duplicate this repository and swap brand assets, colors, and data to launch new stores without rewriting components.
 
 ## Tech Stack
 
@@ -88,7 +88,7 @@ types/                # TypeScript interfaces
 - Shop page with sidebar filters, sorting, and pagination
 - Checkout with order summary and payment form
 - Fully responsive (mobile, tablet, desktop)
-- 26 products across 6 categories
+- 30 products across 13 departments
 
 ## Checkout
 
@@ -96,5 +96,6 @@ Use coupon code `SAVE10` on the cart page for a 10% discount.
 
 ## Brand Colors
 
-- **Primary:** Royal Purple `#7C3AED`
-- **Accent:** Amber `#F59E0B`
+- **Primary:** Charcoal `#1F2937`
+- **Secondary:** Emerald `#10B981`
+- **Accent:** Orange `#F97316`

@@ -8,12 +8,12 @@ export const heroSlides: HeroSlide[] = [
   {
     id: "1",
     image: "/hero/hero-1.jpg",
-    headline: "Shop More. Spend Less.",
+    headline: "Everything You Need. One Trusted Store.",
     description:
-      "Thousands of quality products at prices you'll love.",
+      "Shop premium electronics, home essentials, toys, beauty products and more.",
     ctaText: "Shop Now",
     ctaLink: "/shop",
-    secondaryCtaText: "Today's Deals",
+    secondaryCtaText: "Explore Deals",
     secondaryCtaLink: "/shop?sale=true",
   },
 ];
@@ -23,25 +23,25 @@ export const features: Feature[] = [
     id: "1",
     icon: "truck",
     title: "Fast Delivery",
-    description: "Free shipping on orders over $50. Most orders arrive in 3–5 business days.",
+    description: "Free shipping on orders over $50, with most orders arriving in 3–5 business days.",
   },
   {
     id: "2",
     icon: "shield",
-    title: "Secure Checkout",
-    description: "Your payment information is protected with industry-standard encryption.",
+    title: "Secure Payments",
+    description: "Checkout is protected with industry-standard encryption on every order.",
   },
   {
     id: "3",
     icon: "star",
-    title: "Trusted Marketplace",
+    title: "Premium Quality",
     description: "Every product is carefully selected for quality, value, and reliability.",
   },
   {
     id: "4",
     icon: "rotate",
-    title: "Easy Returns",
-    description: "Hassle-free 30-day returns on most items. We make it simple.",
+    title: "30-Day Returns",
+    description: "Changed your mind? Enjoy hassle-free returns within 30 days of delivery.",
   },
 ];
 
@@ -102,18 +102,18 @@ export const homepageNewArrivalSlugs = [
 
 export const promotionalBanner: PromoBanner = {
   id: "1",
-  title: "Everyday Savings Across Every Category",
+  title: "Everything For Your Everyday Life",
   description:
-    "Shop electronics, home essentials, toys, beauty products and more at unbeatable prices.",
-  buttonText: "Browse Deals",
-  buttonLink: "/shop?sale=true",
+    "Browse thousands of carefully selected products across every category.",
+  buttonText: "Start Shopping",
+  buttonLink: "/shop",
   image: "/banners/featured.jpg",
 };
 
 export const featuredCollection = {
   title: "Featured Products",
   description:
-    "Hand-picked favorites across electronics, home, beauty, and more — everything you need in one marketplace.",
+    "Hand-picked favorites across electronics, home, beauty, and more — everything you need in one trusted store.",
   bannerImage: "/banners/featured.jpg",
   categorySlug: "electronics",
 };
@@ -127,9 +127,9 @@ export const bestSellerTabs = [
 ];
 
 export const newsletter = {
-  title: "Never Miss Another Deal",
+  title: "Join Thousands Of Happy Shoppers",
   description:
-    "Join our newsletter for exclusive offers, discounts and early access to new arrivals.",
+    "Subscribe for exclusive discounts, new arrivals and members-only offers.",
   placeholder: "Enter your email address",
   buttonText: "Subscribe",
 };
@@ -143,12 +143,12 @@ export const sortOptions = [
 ];
 
 export const aboutSection = {
-  title: "Shopping Made Easy.",
+  title: "Quality Products. Honest Prices.",
   description:
-    "VALUEBUY PARTNERS LLC brings together quality products across multiple categories, helping families find everything they need in one trusted online marketplace. We focus on affordability, reliability, and a smooth shopping experience from browsing to checkout.",
+    "VALUE PARTNERS LLC brings together premium products across every category, helping families find everything they need in one trusted store. We focus on quality, honest pricing, and a smooth shopping experience from browsing to checkout.",
   checklist: [
-    "Wide selection across 13+ categories",
-    "Competitive prices on everyday essentials",
+    "Wide selection across 13+ departments",
+    "Honest, transparent pricing on everyday essentials",
     "Fast, reliable shipping nationwide",
     "Dedicated customer support team",
   ],

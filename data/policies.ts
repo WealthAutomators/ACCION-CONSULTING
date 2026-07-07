@@ -2,7 +2,7 @@ import { company } from "./company";
 
 export const faqItems = [
   {
-    question: "What types of products does VALUEBUY PARTNERS LLC sell?",
+    question: "What types of products does VALUE PARTNERS LLC sell?",
     answer:
       "We offer a wide range of products across 12+ categories including electronics, home & kitchen, bathroom essentials, beauty & personal care, toys & games, pet supplies, sports & outdoors, office supplies, health & wellness, baby products, and fashion accessories.",
   },
@@ -49,13 +49,13 @@ export const faqItems = [
   {
     question: "How can I contact customer support?",
     answer:
-      `Our support team is available Monday through Friday, 9am–6pm CST. Email us at ${company.email} or use the contact form on our website. We typically respond within one business day.`,
+      `Our support team is available Monday through Friday, 9am–6pm EST. Email us at ${company.email} or use the contact form on our website. We typically respond within one business day.`,
   },
 ];
 
 export const shippingPolicy = {
   title: "Shipping Policy",
-  description: "Everything you need to know about how we deliver your VALUEBUY PARTNERS LLC orders.",
+  description: "Everything you need to know about how we deliver your VALUE PARTNERS LLC orders.",
   sections: [
     {
       title: "Processing Time",
@@ -90,7 +90,7 @@ export const shippingPolicy = {
 
 export const returnPolicy = {
   title: "Return Policy",
-  description: "We want you to love every VALUEBUY PARTNERS LLC purchase. If you're not satisfied, we're here to help.",
+  description: "We want you to love every VALUE PARTNERS LLC purchase. If you're not satisfied, we're here to help.",
   sections: [
     {
       title: "30-Day Return Window",
@@ -128,7 +128,7 @@ export const returnPolicy = {
 
 export const refundPolicy = {
   title: "Refund Policy",
-  description: "Our commitment to fair and transparent refunds for every VALUEBUY PARTNERS LLC order.",
+  description: "Our commitment to fair and transparent refunds for every VALUE PARTNERS LLC order.",
   sections: [
     {
       title: "Refund Eligibility",
@@ -156,14 +156,14 @@ export const refundPolicy = {
     },
     {
       title: "Contact Us",
-      content: `Questions about refunds? Reach our team at ${company.email} Monday through Friday, 9am–6pm CST.`,
+      content: `Questions about refunds? Reach our team at ${company.email} Monday through Friday, 9am–6pm EST.`,
     },
   ],
 };
 
 export const privacyPolicy = {
   title: "Privacy Policy",
-  description: "Last updated: January 1, 2026. How VALUEBUY PARTNERS LLC collects, uses, and protects your information.",
+  description: "Last updated: January 1, 2026. How VALUE PARTNERS LLC collects, uses, and protects your information.",
   sections: [
     {
       title: "Information We Collect",
@@ -195,7 +195,7 @@ export const privacyPolicy = {
     {
       title: "Your Rights",
       content:
-        "You may request access to, correction of, or deletion of your personal data at any time by contacting us at " + company.email + ". Illinois residents have additional rights under applicable state privacy laws.",
+        "You may request access to, correction of, or deletion of your personal data at any time by contacting us at " + company.email + ". Virginia residents have additional rights under applicable state privacy laws.",
     },
     {
       title: "Contact",
@@ -206,12 +206,12 @@ export const privacyPolicy = {
 
 export const termsPolicy = {
   title: "Terms & Conditions",
-  description: "Please read these terms carefully before using the VALUEBUY PARTNERS LLC website.",
+  description: "Please read these terms carefully before using the VALUE PARTNERS LLC website.",
   sections: [
     {
       title: "Acceptance of Terms",
       content:
-        "By accessing and using the VALUEBUY PARTNERS LLC website, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our website.",
+        "By accessing and using the VALUE PARTNERS LLC website, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our website.",
     },
     {
       title: "Products & Pricing",
@@ -226,17 +226,17 @@ export const termsPolicy = {
     {
       title: "Intellectual Property",
       content:
-        "All content on this website — including text, images, logos, and design — is the property of VALUEBUY PARTNERS LLC and protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.",
+        "All content on this website — including text, images, logos, and design — is the property of VALUE PARTNERS LLC and protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.",
     },
     {
       title: "Limitation of Liability",
       content:
-        "VALUEBUY PARTNERS LLC shall not be liable for any indirect, incidental, or consequential damages arising from your use of our website or products. Our total liability shall not exceed the amount you paid for the product in question.",
+        "VALUE PARTNERS LLC shall not be liable for any indirect, incidental, or consequential damages arising from your use of our website or products. Our total liability shall not exceed the amount you paid for the product in question.",
     },
     {
       title: "Governing Law",
       content:
-        "These terms are governed by the laws of the State of Illinois, United States. Any disputes shall be resolved in the courts of DuPage County, Illinois.",
+        "These terms are governed by the laws of the Commonwealth of Virginia, United States. Any disputes shall be resolved in the courts of the City of Chesapeake, Virginia.",
     },
   ],
 };

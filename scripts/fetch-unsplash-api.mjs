@@ -1,6 +1,6 @@
 /**
  * Fetches relevant product/category imagery from the Unsplash API for
- * VALUEBUY PARTNERS LLC and saves them into /public.
+ * VALUE PARTNERS LLC and saves them into /public.
  *
  * Only Unsplash API *search* calls count against the hourly rate limit
  * (50/hr on a demo key). Downloading the resulting image bytes from the
@@ -225,9 +225,9 @@ async function main() {
 
   // 3) Hero + banners (landscape) if budget remains.
   const wide = [
-    { file: "hero/hero-1.jpg", query: "happy family online shopping", width: 1800 },
-    { file: "banners/featured.jpg", query: "shopping bags sale", width: 1600 },
-    { file: "banners/about.jpg", query: "warehouse delivery boxes", width: 1600 },
+    { file: "hero/hero-1.jpg", query: "modern family living room home interior", width: 1800 },
+    { file: "banners/featured.jpg", query: "modern home lifestyle products", width: 1600 },
+    { file: "banners/about.jpg", query: "warehouse fulfillment delivery boxes", width: 1600 },
   ];
   for (const t of wide) {
     try {

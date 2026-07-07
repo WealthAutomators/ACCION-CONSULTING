@@ -21,7 +21,7 @@ export function BestSellers() {
   return (
     <section className="py-12 md:py-16">
       <Container>
-        <SectionHeading title="Top Rated Products" viewMoreLink="/best-sellers" />
+        <SectionHeading title="Best Sellers" viewMoreLink="/best-sellers" />
 
         <div className="mb-8 flex flex-wrap gap-2">
           {bestSellerTabs.map((tab) => (

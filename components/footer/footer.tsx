@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Globe, Share2, Users } from "lucide-react";
+import { Globe, Share2, Users, Mail, MapPin } from "lucide-react";
 import { company } from "@/data/company";
 import { footerLinks, paymentMethods } from "@/data/navigation";
 import { Container } from "@/components/ui/container";
@@ -10,29 +10,29 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-card">
       <Container className="py-12">
+        <div className="mb-10 max-w-md">
+          <Image src="/logo/logo.svg" alt={company.name} width={248} height={44} className="mb-4 h-11 w-auto" />
+          <p className="text-sm leading-relaxed text-muted-foreground">{company.description}</p>
+          <div className="mt-4 flex gap-3">
+            <a href={company.social.instagram} className="text-muted-foreground transition-colors hover:text-secondary" aria-label="Instagram">
+              <Share2 className="h-5 w-5" />
+            </a>
+            <a href={company.social.facebook} className="text-muted-foreground transition-colors hover:text-secondary" aria-label="Facebook">
+              <Users className="h-5 w-5" />
+            </a>
+            <a href={company.social.twitter} className="text-muted-foreground transition-colors hover:text-secondary" aria-label="Twitter">
+              <Globe className="h-5 w-5" />
+            </a>
+          </div>
+        </div>
+
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Image src="/logo/logo.svg" alt={company.name} width={240} height={44} className="mb-4 h-11 w-auto" />
-            <p className="text-sm leading-relaxed text-muted-foreground">{company.description}</p>
-            <div className="mt-4 flex gap-3">
-              <a href={company.social.instagram} className="text-muted-foreground transition-colors hover:text-primary" aria-label="Instagram">
-                <Share2 className="h-5 w-5" />
-              </a>
-              <a href={company.social.facebook} className="text-muted-foreground transition-colors hover:text-primary" aria-label="Facebook">
-                <Users className="h-5 w-5" />
-              </a>
-              <a href={company.social.twitter} className="text-muted-foreground transition-colors hover:text-primary" aria-label="Twitter">
-                <Globe className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Marketplace</h3>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Shop</h3>
             <ul className="space-y-2.5">
-              {footerLinks.marketplace.map((link) => (
+              {footerLinks.shop.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-secondary">
                     {link.label}
                   </Link>
                 </li>
@@ -41,11 +41,11 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Customer Service</h3>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Customer Care</h3>
             <ul className="space-y-2.5">
-              {footerLinks.customerService.map((link) => (
+              {footerLinks.customerCare.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-secondary">
                     {link.label}
                   </Link>
                 </li>
@@ -58,20 +58,27 @@ export function Footer() {
             <ul className="space-y-2.5">
               {footerLinks.policies.map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  <Link href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-secondary">
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <h3 className="mb-4 mt-8 text-sm font-semibold uppercase tracking-wider">Contact</h3>
-            <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li>
-                {company.address.street}<br />
-                {company.address.city}, {company.address.state}
+          </div>
+
+          <div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Contact</h3>
+            <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2.5">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
+                <span>
+                  {company.address.street}<br />
+                  {company.address.city}, {company.address.state}
+                </span>
               </li>
-              <li>
-                <a href={`mailto:${company.email}`} className="transition-colors hover:text-primary">
+              <li className="flex items-start gap-2.5">
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
+                <a href={`mailto:${company.email}`} className="transition-colors hover:text-secondary">
                   {company.email}
                 </a>
               </li>

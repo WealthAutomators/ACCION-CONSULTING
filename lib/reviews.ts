@@ -50,15 +50,15 @@ const REVIEW_TITLES_3 = [
 
 const BODIES_5 = [
   "Ordered this along with a few other items and everything arrived well-packaged. Quality is exactly what you'd expect from a premium marketplace. Already planning my next order.",
-  "I've compared prices across several sites and this was the best deal. Product works flawlessly and shipping was faster than expected. Very impressed with VALUEBUY PARTNERS.",
+  "I've compared prices across several sites and this was the best deal. Product works flawlessly and shipping was faster than expected. Very impressed with VALUE PARTNERS.",
   "Bought this as a gift and the recipient loved it. Packaging was neat, product feels premium, and it works exactly as described. Will definitely shop here again.",
   "This has become a daily essential in our household. Build quality is solid, setup was easy, and it performs better than products I've paid twice as much for elsewhere.",
   "Wasn't sure about ordering online but this exceeded all expectations. Arrived in two days, works perfectly out of the box, and customer support answered my pre-purchase questions quickly.",
-  "Third time ordering from VALUEBUY PARTNERS and they never disappoint. Consistent quality, fair prices, and reliable shipping every single time. Highly recommend.",
+  "Third time ordering from VALUE PARTNERS and they never disappoint. Consistent quality, fair prices, and reliable shipping every single time. Highly recommend.",
   "The product photos don't do it justice — it's even better in person. Sturdy construction, thoughtful design details, and great value for what you get.",
   "Perfect for what I needed. Easy to use, well-made, and the price point is very competitive. My whole family has been using it daily since it arrived.",
   "I read a lot of reviews before buying and I'm glad I went with this one. Does everything it promises and then some. Five stars without hesitation.",
-  "Fast delivery, great packaging, and a product that actually lives up to the description. It's rare to find all three — VALUEBUY PARTNERS nailed it.",
+  "Fast delivery, great packaging, and a product that actually lives up to the description. It's rare to find all three — VALUE PARTNERS nailed it.",
   "Replaced an older version of a similar product and this is a massive upgrade. Better materials, better performance, and it looks great too.",
   "Ordered during a sale and still would have been happy at full price. Quality is top-notch and it integrated seamlessly into my daily routine.",
 ];

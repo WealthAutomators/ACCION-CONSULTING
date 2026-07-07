@@ -13,7 +13,7 @@ const RecentlyViewedContext = createContext<RecentlyViewedContextType | undefine
 
 export function RecentlyViewedProvider({ children }: { children: ReactNode }) {
   const [recentlyViewed, setRecentlyViewed, isHydrated] = useLocalStorage<string[]>(
-    "valuebuy-partners-recently-viewed",
+    "value-partners-recently-viewed",
     []
   );
 
