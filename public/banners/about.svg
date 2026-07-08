@@ -1,6 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <rect width="100%" height="100%" fill="#F3F4F6"/>
-  <rect x="20" y="20" width="760" height="560" fill="none" stroke="#1F2937" stroke-width="1" opacity="0.15" rx="8"/>
-  <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" fill="#1F2937" font-family="system-ui, sans-serif" font-size="36" font-weight="600">Quality Products. Honest Prices.</text>
-  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" fill="#10B981" font-family="system-ui, sans-serif" font-size="21" opacity="0.9">VALUE PARTNERS LLC</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760">
+  <defs>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EAF2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="760" fill="url(#aboutBg)"/>
+  <circle cx="168" cy="132" r="86" fill="#06B6D4" opacity="0.10"/>
+  <circle cx="870" cy="146" r="110" fill="#2563EB" opacity="0.10"/>
+  <circle cx="818" cy="628" r="120" fill="#F97316" opacity="0.12"/>
+  <rect x="124" y="122" width="752" height="516" rx="34" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="176" y="188" width="290" height="214" rx="28" fill="#DBEAFE"/>
+  <rect x="506" y="188" width="254" height="22" rx="11" fill="#2563EB" opacity="0.18"/>
+  <rect x="506" y="230" width="296" height="16" rx="8" fill="#94A3B8" opacity="0.32"/>
+  <rect x="506" y="262" width="278" height="16" rx="8" fill="#94A3B8" opacity="0.24"/>
+  <rect x="506" y="294" width="240" height="16" rx="8" fill="#94A3B8" opacity="0.24"/>
+  <rect x="176" y="448" width="648" height="24" rx="12" fill="#2563EB" opacity="0.12"/>
+  <rect x="176" y="496" width="604" height="16" rx="8" fill="#94A3B8" opacity="0.26"/>
+  <rect x="176" y="528" width="548" height="16" rx="8" fill="#94A3B8" opacity="0.18"/>
+  <text x="506" y="118" text-anchor="middle" fill="#111827" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="800">FELI VENTURES LLC</text>
 </svg>

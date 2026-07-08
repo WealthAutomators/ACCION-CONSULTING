@@ -6,7 +6,7 @@ export const categories: Category[] = [
     slug: "electronics",
     name: "Electronics",
     image: "/categories/electronics.jpg",
-    description: "Smart gadgets, audio gear, and everyday tech essentials.",
+    description: "Smart gadgets, audio gear, and connected essentials for modern living.",
     productCount: 3,
   },
   {
@@ -14,7 +14,7 @@ export const categories: Category[] = [
     slug: "home-kitchen",
     name: "Home & Kitchen",
     image: "/categories/home-kitchen.jpg",
-    description: "Appliances and tools to make home life easier.",
+    description: "Everyday appliances and practical upgrades for busy homes.",
     productCount: 3,
   },
   {
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     slug: "bathroom",
     name: "Bathroom",
     image: "/categories/bathroom.jpg",
-    description: "Towels, organizers, and bathroom essentials.",
+    description: "Soft essentials and tidy organizers for a refreshed routine.",
     productCount: 2,
   },
   {
@@ -30,7 +30,7 @@ export const categories: Category[] = [
     slug: "educational-toys",
     name: "Educational Toys",
     image: "/categories/educational-toys.jpg",
-    description: "Learning tools that make education fun.",
+    description: "Hands-on play that blends creativity, learning, and discovery.",
     productCount: 2,
   },
   {
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     slug: "pet-supplies",
     name: "Pet Supplies",
     image: "/categories/pet-supplies.jpg",
-    description: "Comfort and care products for your pets.",
+    description: "Comfort, care, and smart storage for beloved pets.",
     productCount: 2,
   },
   {
@@ -46,7 +46,7 @@ export const categories: Category[] = [
     slug: "beauty",
     name: "Beauty",
     image: "/categories/beauty.jpg",
-    description: "Skincare, hair care, and personal care favorites.",
+    description: "Radiance-boosting skincare and hair care favorites.",
     productCount: 2,
   },
   {
@@ -54,7 +54,7 @@ export const categories: Category[] = [
     slug: "sports-outdoors",
     name: "Sports",
     image: "/categories/sports-outdoors.jpg",
-    description: "Gear for fitness, yoga, and outdoor activities.",
+    description: "Portable fitness gear for movement at home or on the go.",
     productCount: 2,
   },
   {
@@ -62,7 +62,7 @@ export const categories: Category[] = [
     slug: "office-supplies",
     name: "Office",
     image: "/categories/office-supplies.jpg",
-    description: "Desk accessories and workspace essentials.",
+    description: "Workspace upgrades that keep desks bright and productive.",
     productCount: 2,
   },
   {
@@ -70,7 +70,7 @@ export const categories: Category[] = [
     slug: "fashion-accessories",
     name: "Fashion",
     image: "/categories/fashion-accessories.jpg",
-    description: "Accessories to complete your everyday look.",
+    description: "Polished accessories for daily style and travel-ready looks.",
     productCount: 2,
   },
   {
@@ -78,7 +78,7 @@ export const categories: Category[] = [
     slug: "baby-products",
     name: "Baby",
     image: "/categories/baby-products.jpg",
-    description: "Safe, thoughtful products for little ones.",
+    description: "Thoughtful picks for comfort, care, and nursery routines.",
     productCount: 2,
   },
   {
@@ -86,7 +86,7 @@ export const categories: Category[] = [
     slug: "toys-games",
     name: "Toys & Games",
     image: "/categories/toys-games.jpg",
-    description: "Fun for kids and families of all ages.",
+    description: "Family-friendly fun for afternoons, weekends, and rainy days.",
     productCount: 2,
   },
   {
@@ -94,15 +94,15 @@ export const categories: Category[] = [
     slug: "health-wellness",
     name: "Health & Wellness",
     image: "/categories/health-wellness.jpg",
-    description: "Products to support your wellness routine.",
-    productCount: 2,
+    description: "Recovery, relaxation, and wellness tools for everyday balance.",
+    productCount: 3,
   },
   {
     id: "13",
     slug: "gaming",
     name: "Gaming",
     image: "/categories/gaming.jpg",
-    description: "Headsets, peripherals, and accessories for every gamer.",
+    description: "Immersive accessories and setup upgrades for every gamer.",
     productCount: 4,
   },
 ];

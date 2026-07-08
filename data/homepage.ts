@@ -7,13 +7,13 @@ import {
 export const heroSlides: HeroSlide[] = [
   {
     id: "1",
-    image: "/hero/hero-1.jpg",
-    headline: "Everything You Need. One Trusted Store.",
+    image: "/hero/hero-2.svg",
+    headline: "Shop Smarter.\nLive Better.",
     description:
-      "Shop premium electronics, home essentials, toys, beauty products and more.",
-    ctaText: "Shop Now",
+      "Everything from electronics and home essentials to beauty, toys and everyday favorites.",
+    ctaText: "Shop Collection",
     ctaLink: "/shop",
-    secondaryCtaText: "Explore Deals",
+    secondaryCtaText: "Today's Deals",
     secondaryCtaLink: "/shop?sale=true",
   },
 ];
@@ -22,92 +22,92 @@ export const features: Feature[] = [
   {
     id: "1",
     icon: "truck",
-    title: "Fast Delivery",
-    description: "Free shipping on orders over $50, with most orders arriving in 3–5 business days.",
+    title: "Fast Shipping",
+    description: "Enjoy quick delivery on everyday essentials, trend finds, and top-rated picks across the store.",
   },
   {
     id: "2",
     icon: "shield",
-    title: "Secure Payments",
-    description: "Checkout is protected with industry-standard encryption on every order.",
+    title: "Secure Checkout",
+    description: "Shop with confidence through a smooth, protected checkout experience on every order.",
   },
   {
     id: "3",
     icon: "star",
-    title: "Premium Quality",
-    description: "Every product is carefully selected for quality, value, and reliability.",
+    title: "Premium Products",
+    description: "We curate quality products that balance style, function, and everyday value.",
   },
   {
     id: "4",
     icon: "rotate",
-    title: "30-Day Returns",
-    description: "Changed your mind? Enjoy hassle-free returns within 30 days of delivery.",
+    title: "Easy Returns",
+    description: "Changed your mind? Our return process is straightforward and designed to keep shopping stress-free.",
   },
 ];
 
 export const dealsEndTime = new Date(Date.now() + 1000 * 60 * 60 * 18).toISOString();
 
 export const homepageDealsSlugs = [
-  "wireless-earbuds",
-  "electric-kettle",
-  "air-fryer",
-  "dog-bed",
-  "bath-towel-set",
-  "sunglasses-classic",
+  "wireless-noise-canceling-earbuds",
+  "digital-air-fryer-oven",
+  "plush-memory-foam-dog-bed",
+  "family-board-game-bundle",
+  "smart-baby-monitor",
+  "polarized-everyday-sunglasses",
 ] as const;
 
 export const homepageTrendingSlugs = [
-  "wireless-earbuds",
-  "bluetooth-speaker",
-  "air-fryer",
+  "wireless-noise-canceling-earbuds",
+  "portable-bluetooth-speaker",
+  "glass-electric-kettle",
   "kids-learning-tablet",
-  "yoga-mat",
-  "gaming-headset",
-  "vitamin-c-serum-set",
-  "standing-desk-lamp",
+  "vitamin-c-skincare-set",
+  "wireless-gaming-headset",
+  "led-desk-lamp",
+  "smart-fitness-watch",
 ] as const;
 
 export const homepageBestsellerSlugs = [
-  "wireless-earbuds",
-  "bluetooth-speaker",
-  "bath-towel-set",
-  "yoga-mat",
-  "kids-learning-tablet",
-  "coffee-grinder",
-  "dog-bed",
-  "electric-kettle",
+  "wireless-noise-canceling-earbuds",
+  "portable-bluetooth-speaker",
+  "digital-air-fryer-oven",
+  "luxury-bath-towel-set",
+  "vitamin-c-skincare-set",
+  "plush-memory-foam-dog-bed",
+  "wireless-gaming-headset",
+  "smart-baby-monitor",
 ] as const;
 
 export const homepageFeaturedSlugs = [
-  "wireless-earbuds",
-  "electric-kettle",
-  "bath-towel-set",
+  "wireless-noise-canceling-earbuds",
+  "glass-electric-kettle",
+  "luxury-bath-towel-set",
   "kids-learning-tablet",
-  "standing-desk-lamp",
-  "air-fryer",
-  "yoga-mat",
-  "dog-bed",
-  "coffee-grinder",
-  "bluetooth-speaker",
+  "led-desk-lamp",
+  "digital-air-fryer-oven",
+  "non-slip-yoga-mat",
+  "plush-memory-foam-dog-bed",
+  "coffee-burr-grinder",
+  "portable-bluetooth-speaker",
 ] as const;
 
 export const homepageNewArrivalSlugs = [
-  "stem-robot-kit",
-  "vitamin-c-serum-set",
-  "baby-monitor",
-  "foam-roller",
-  "rgb-gaming-keyboard",
-  "controller-charging-dock",
+  "stem-robot-builder-kit",
+  "collagen-hair-care-bundle",
+  "smart-baby-monitor",
+  "foam-roller-recovery-kit",
+  "rgb-mechanical-keyboard",
+  "dual-controller-charging-dock",
 ] as const;
 
 export const promotionalBanner: PromoBanner = {
   id: "1",
-  title: "Everything For Your Everyday Life",
+  title: "Everything You Need For Everyday Living",
   description:
-    "Browse thousands of carefully selected products across every category.",
-  buttonText: "Start Shopping",
+    "Quality products across every category with prices you'll love and service you can trust.",
+  buttonText: "Browse Collection",
   buttonLink: "/shop",
-  image: "/banners/featured.jpg",
+  image: "/banners/featured.svg",
 };
 
 export const featuredCollection = {
@@ -123,13 +123,13 @@ export const bestSellerTabs = [
   { label: "Electronics", slug: "electronics" },
   { label: "Home & Kitchen", slug: "home-kitchen" },
   { label: "Beauty", slug: "beauty" },
-  { label: "Sports", slug: "sports-outdoors" },
+  { label: "Gaming", slug: "gaming" },
 ];
 
 export const newsletter = {
-  title: "Join Thousands Of Happy Shoppers",
+  title: "Stay Ahead Of Every Deal",
   description:
-    "Subscribe for exclusive discounts, new arrivals and members-only offers.",
+    "Subscribe for exclusive offers, new arrivals and members-only discounts.",
   placeholder: "Enter your email address",
   buttonText: "Subscribe",
 };
@@ -143,16 +143,16 @@ export const sortOptions = [
 ];
 
 export const aboutSection = {
-  title: "Quality Products. Honest Prices.",
+  title: "Modern Living. Better Shopping.",
   description:
-    "VALUE PARTNERS LLC brings together premium products across every category, helping families find everything they need in one trusted store. We focus on quality, honest pricing, and a smooth shopping experience from browsing to checkout.",
+    "FELI VENTURES LLC brings together smart home upgrades, lifestyle staples, beauty favorites, tech, toys, and more in one bright modern marketplace built around convenience and value.",
   checklist: [
-    "Wide selection across 13+ departments",
-    "Honest, transparent pricing on everyday essentials",
-    "Fast, reliable shipping nationwide",
-    "Dedicated customer support team",
+    "Fresh finds across 12 everyday lifestyle categories",
+    "Friendly shopping experience with curated picks",
+    "Fast nationwide shipping on popular essentials",
+    "Helpful support before and after checkout",
   ],
   buttonText: "Learn More About Us",
   buttonLink: "/about",
-  image: "/banners/about.jpg",
+  image: "/banners/about.svg",
 };

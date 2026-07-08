@@ -12,33 +12,33 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://valuepartnersllc.com"),
+  metadataBase: new URL("https://feliventuresllc.com"),
   title: {
-    default: `${company.name} — ${company.tagline}`,
+    default: `${company.name} | ${company.tagline}`,
     template: `%s | ${company.name}`,
   },
   description: company.description,
   keywords: [
-    "VALUE PARTNERS LLC",
-    "online marketplace",
+    "FELI VENTURES LLC",
+    "modern marketplace",
     "electronics",
     "home essentials",
     "beauty",
     "toys",
     "gaming",
-    "affordable products",
+    "lifestyle shopping",
   ],
   openGraph: {
     type: "website",
     siteName: company.name,
-    title: `${company.name} — ${company.tagline}`,
+    title: `${company.name} | ${company.tagline}`,
     description: company.description,
-    url: "https://valuepartnersllc.com",
+    url: "https://feliventuresllc.com",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${company.name} — ${company.tagline}`,
+    title: `${company.name} | ${company.tagline}`,
     description: company.description,
   },
 };
@@ -50,7 +50,7 @@ const organizationSchema = {
   description: company.description,
   email: company.email,
   slogan: company.tagline,
-  url: "https://valuepartnersllc.com",
+  url: "https://feliventuresllc.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: company.address.street,
@@ -58,12 +58,6 @@ const organizationSchema = {
     addressRegion: company.address.state,
     addressCountry: company.address.country,
   },
-  sameAs: [
-    company.social.instagram,
-    company.social.facebook,
-    company.social.twitter,
-    company.social.pinterest,
-  ],
 };
 
 export default function RootLayout({

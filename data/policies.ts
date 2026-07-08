@@ -2,14 +2,14 @@ import { company } from "./company";
 
 export const faqItems = [
   {
-    question: "What types of products does VALUE PARTNERS LLC sell?",
+    question: "What types of products does FELI VENTURES LLC sell?",
     answer:
       "We offer a wide range of products across 12+ categories including electronics, home & kitchen, bathroom essentials, beauty & personal care, toys & games, pet supplies, sports & outdoors, office supplies, health & wellness, baby products, and fashion accessories.",
   },
   {
     question: "Do you offer free shipping?",
     answer:
-      "Yes. We offer free standard shipping on all orders over $50 within the contiguous United States. Orders under $50 have a flat rate of $9.99. Express shipping is available at checkout for $14.99.",
+      "Yes. We offer free standard shipping on qualifying orders over $75 within the contiguous United States. Orders under $75 have a flat rate of $9.99. Express shipping is available at checkout for $14.99.",
   },
   {
     question: "How long does shipping take?",
@@ -55,7 +55,7 @@ export const faqItems = [
 
 export const shippingPolicy = {
   title: "Shipping Policy",
-  description: "Everything you need to know about how we deliver your VALUE PARTNERS LLC orders.",
+  description: "Everything you need to know about how we deliver your FELI VENTURES LLC orders.",
   sections: [
     {
       title: "Processing Time",
@@ -66,7 +66,7 @@ export const shippingPolicy = {
       title: "Shipping Methods & Rates",
       content: "",
       list: [
-        "Standard Shipping (3–5 business days): $9.99 — FREE on orders over $50",
+        "Standard Shipping (3–5 business days): $9.99 — FREE on orders over $75",
         "Express Shipping (1–2 business days): $14.99",
         "Alaska & Hawaii: Standard shipping rates apply; delivery may take 5–7 business days",
       ],
@@ -90,7 +90,7 @@ export const shippingPolicy = {
 
 export const returnPolicy = {
   title: "Return Policy",
-  description: "We want you to love every VALUE PARTNERS LLC purchase. If you're not satisfied, we're here to help.",
+  description: "We want you to love every FELI VENTURES LLC purchase. If you're not satisfied, we're here to help.",
   sections: [
     {
       title: "30-Day Return Window",
@@ -128,7 +128,7 @@ export const returnPolicy = {
 
 export const refundPolicy = {
   title: "Refund Policy",
-  description: "Our commitment to fair and transparent refunds for every VALUE PARTNERS LLC order.",
+  description: "Our commitment to fair and transparent refunds for every FELI VENTURES LLC order.",
   sections: [
     {
       title: "Refund Eligibility",
@@ -163,7 +163,7 @@ export const refundPolicy = {
 
 export const privacyPolicy = {
   title: "Privacy Policy",
-  description: "Last updated: January 1, 2026. How VALUE PARTNERS LLC collects, uses, and protects your information.",
+  description: "Last updated: January 1, 2026. How FELI VENTURES LLC collects, uses, and protects your information.",
   sections: [
     {
       title: "Information We Collect",
@@ -195,7 +195,7 @@ export const privacyPolicy = {
     {
       title: "Your Rights",
       content:
-        "You may request access to, correction of, or deletion of your personal data at any time by contacting us at " + company.email + ". Virginia residents have additional rights under applicable state privacy laws.",
+        "You may request access to, correction of, or deletion of your personal data at any time by contacting us at " + company.email + ". Maryland residents may have additional rights under applicable state privacy laws.",
     },
     {
       title: "Contact",
@@ -206,12 +206,12 @@ export const privacyPolicy = {
 
 export const termsPolicy = {
   title: "Terms & Conditions",
-  description: "Please read these terms carefully before using the VALUE PARTNERS LLC website.",
+  description: "Please read these terms carefully before using the FELI VENTURES LLC website.",
   sections: [
     {
       title: "Acceptance of Terms",
       content:
-        "By accessing and using the VALUE PARTNERS LLC website, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our website.",
+        "By accessing and using the FELI VENTURES LLC website, you agree to be bound by these Terms and Conditions. If you do not agree, please do not use our website.",
     },
     {
       title: "Products & Pricing",
@@ -226,17 +226,17 @@ export const termsPolicy = {
     {
       title: "Intellectual Property",
       content:
-        "All content on this website — including text, images, logos, and design — is the property of VALUE PARTNERS LLC and protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.",
+        "All content on this website — including text, images, logos, and design — is the property of FELI VENTURES LLC and protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.",
     },
     {
       title: "Limitation of Liability",
       content:
-        "VALUE PARTNERS LLC shall not be liable for any indirect, incidental, or consequential damages arising from your use of our website or products. Our total liability shall not exceed the amount you paid for the product in question.",
+        "FELI VENTURES LLC shall not be liable for any indirect, incidental, or consequential damages arising from your use of our website or products. Our total liability shall not exceed the amount you paid for the product in question.",
     },
     {
       title: "Governing Law",
       content:
-        "These terms are governed by the laws of the Commonwealth of Virginia, United States. Any disputes shall be resolved in the courts of the City of Chesapeake, Virginia.",
+        "These terms are governed by the laws of the State of Maryland, United States. Any disputes shall be resolved in the courts serving Prince George's County, Maryland.",
     },
   ],
 };

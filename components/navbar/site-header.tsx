@@ -7,7 +7,7 @@ export function SiteHeader() {
   return (
     <>
       <AnnouncementBar />
-      <div className="sticky top-0 z-50 border-b border-border bg-white shadow-sm">
+      <div className="sticky top-0 z-50 border-b border-border/80 bg-white/95 shadow-sm backdrop-blur">
         <Navbar />
       </div>
     </>

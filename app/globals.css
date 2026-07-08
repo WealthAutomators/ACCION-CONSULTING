@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f9fafb;
+  --background: #f8fafc;
   --foreground: #111827;
-  --primary: #1f2937;
+  --primary: #2563eb;
   --primary-foreground: #ffffff;
-  --secondary: #10b981;
+  --secondary: #f97316;
   --secondary-foreground: #ffffff;
-  --accent: #f97316;
+  --accent: #06b6d4;
   --accent-foreground: #ffffff;
-  --emerald: #10b981;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
-  --border: #e5e7eb;
-  --ring: #10b981;
+  --emerald: #f97316;
+  --muted: #eff6ff;
+  --muted-foreground: #64748b;
+  --border: #e2e8f0;
+  --ring: #2563eb;
   --card: #ffffff;
-  --radius: 8px;
+  --radius: 14px;
 }
 
 @theme inline {
@@ -35,8 +35,8 @@
   --color-ring: var(--ring);
   --color-card: var(--card);
   --font-sans: var(--font-inter);
-  --radius-lg: 8px;
-  --radius-xl: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 14px;
 }
 
 body {
@@ -73,4 +73,12 @@ html {
 
 body {
   overflow-x: hidden;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent);
 }

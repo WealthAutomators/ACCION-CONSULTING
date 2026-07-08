@@ -193,7 +193,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                 <h2 className="text-lg font-semibold">Shipping Information</h2>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                Free standard shipping on orders over $50. Standard delivery takes 3–5 business days.
+                Free standard shipping on orders over $75. Standard delivery takes 3–5 business days.
                 Express shipping (1–2 business days) is available at checkout for $14.99.
                 We ship to all 50 US states. Orders placed before 2pm EST ship same day.
               </p>

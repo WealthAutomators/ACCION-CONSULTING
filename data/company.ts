@@ -1,22 +1,17 @@
 export const company = {
-  name: "VALUE PARTNERS LLC",
-  tagline: "Quality Products. Honest Prices.",
+  name: "FELI VENTURES LLC",
+  tagline: "Modern Living. Better Shopping.",
   description:
-    "VALUE PARTNERS LLC is a modern marketplace for premium electronics, home essentials, beauty, toys, gaming gear, and more — carefully curated products at honest prices for every home.",
-  email: "valuepartnersllc1@gmail.com",
+    "FELI VENTURES LLC is a bright modern marketplace for electronics, home essentials, beauty, toys, gaming, wellness, and everyday favorites curated for smarter shopping.",
+  email: "feliventuresllc@gmail.com",
   address: {
-    street: "2222 S MILITARY HWY",
-    city: "CHESAPEAKE",
-    state: "VA",
+    street: "3313 OLD LARGO RD",
+    city: "UPPER MARLBORO",
+    state: "MD",
     zip: "",
     country: "United States",
   },
-  social: {
-    instagram: "https://instagram.com/valuepartnersllc",
-    facebook: "https://facebook.com/valuepartnersllc",
-    twitter: "https://twitter.com/valuepartnersllc",
-    pinterest: "https://pinterest.com/valuepartnersllc",
-  },
+  social: {},
   hours: "Mon–Fri: 9am–6pm EST",
-  copyright: `© ${new Date().getFullYear()} VALUE PARTNERS LLC. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} FELI VENTURES LLC. All rights reserved.`,
 };

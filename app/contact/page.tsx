@@ -41,7 +41,7 @@ export default function ContactPage() {
                 {
                   icon: MapPin,
                   label: "Address",
-                  value: `${company.address.street}, ${company.address.city}, ${company.address.state} ${company.address.zip}`,
+                  value: `${company.address.street}, ${company.address.city}, ${company.address.state}`,
                 },
                 { icon: Clock, label: "Hours", value: company.hours },
               ].map(({ icon: Icon, label, value }) => (

@@ -1,19 +1,24 @@
 "use client";
 
 import Link from "next/link";
-import { company } from "@/data/company";
 import { Container } from "@/components/ui/container";
+import { utilityBarLinks } from "@/data/navigation";
 
 export function AnnouncementBar() {
   return (
-    <div className="bg-primary text-center text-xs font-medium text-white sm:text-sm">
+    <div className="bg-primary text-xs font-medium text-white sm:text-sm">
       <Container className="py-2">
-        <p>
-          {company.name} — {company.tagline}{" "}
-          <Link href="/shop?sale=true" className="ml-1 font-semibold text-secondary underline underline-offset-2 transition-colors hover:text-accent">
-            Shop Deals →
-          </Link>
-        </p>
+        <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-center">
+          {utilityBarLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-white/90 transition-colors hover:text-secondary"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
       </Container>
     </div>
   );

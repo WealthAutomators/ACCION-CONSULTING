@@ -22,30 +22,28 @@ export default function AboutPage() {
       <Container className="pb-16">
         <div className="grid items-center gap-10 py-12 md:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border shadow-sm">
-            <Image src="/banners/about.jpg" alt={`About ${company.name}`} fill className="object-cover" sizes="50vw" />
+            <Image src="/banners/about.svg" alt={`About ${company.name}`} fill className="object-cover" sizes="50vw" />
           </div>
           <PageSection title="Our Story">
             <p>
-              VALUE PARTNERS LLC was founded with a simple mission: make premium products easy to
-              shop for by bringing together quality goods across every department in one trusted
-              store. From electronics and home essentials to toys, beauty, and gaming gear — we
-              curate products that deliver real value at honest prices.
+              FELI VENTURES LLC was created to make everyday shopping feel brighter, easier, and
+              more inspiring. We bring together practical home upgrades, modern tech, family
+              essentials, wellness finds, and lifestyle favorites in one clean marketplace.
             </p>
             <p className="mt-4">
-              Based in Chesapeake, Virginia, we work with reliable suppliers to offer competitive
-              prices without compromising on quality. Every product in our catalog is selected with
-              care, and our team is dedicated to making your shopping experience smooth from browsing
-              to checkout.
+              Based in Upper Marlboro, Maryland, we focus on offering a curated mix of quality,
+              value, and convenience. Every item is chosen to support modern living, and our team is
+              committed to a smooth shopping experience from first click to final delivery update.
             </p>
           </PageSection>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: ShoppingBag, title: "Wide Selection", desc: "13+ categories covering everything your home and family needs." },
-            { icon: Award, title: "Trusted Quality", desc: "Every product is carefully vetted for quality, value, and reliability." },
-            { icon: Heart, title: "Customer First", desc: "30-day returns, responsive support, and a satisfaction guarantee." },
-            { icon: Check, title: "Easy Shopping", desc: "One marketplace, one checkout — no jumping between multiple stores." },
+            { icon: ShoppingBag, title: "Everyday Variety", desc: "Shop electronics, home, beauty, wellness, toys, fashion, and more in one place." },
+            { icon: Award, title: "Curated Quality", desc: "We focus on useful, stylish products that feel good to bring into everyday life." },
+            { icon: Heart, title: "Friendly Service", desc: "Helpful support and easy returns keep shopping simple from start to finish." },
+            { icon: Check, title: "Modern Convenience", desc: "A polished store experience built for fast browsing, smooth checkout, and repeat visits." },
           ].map(({ icon: Icon, title, desc }) => (
             <div key={title} className="rounded-lg border border-border bg-card p-6 text-center shadow-sm">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">

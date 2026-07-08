@@ -3,27 +3,29 @@ import { NavLink } from "@/types";
 export const navigationLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Shop", href: "/shop" },
-  { label: "Departments", href: "/categories" },
+  { label: "Categories", href: "/categories" },
+  { label: "Trending", href: "/shop?sort=rating" },
+  { label: "Electronics", href: "/categories/electronics" },
+  { label: "Home", href: "/categories/home-kitchen" },
+  { label: "Fashion", href: "/categories/fashion-accessories" },
   { label: "Deals", href: "/shop?sale=true" },
-  { label: "Best Sellers", href: "/best-sellers" },
-  { label: "New Arrivals", href: "/new-arrivals" },
   { label: "Contact", href: "/contact" },
 ];
 
 export const utilityBarLinks = [
-  { label: "Free Shipping on Orders Over $50", href: "/shipping" },
-  { label: "Track Order", href: "/track-order" },
-  { label: "Help Center", href: "/faq" },
+  { label: "New Weekly Deals", href: "/shop?sale=true" },
+  { label: "Free Shipping Over $75", href: "/shipping" },
+  { label: "Easy Returns", href: "/returns" },
 ];
 
 export const footerLinks = {
   shop: [
     { label: "Shop All", href: "/shop" },
-    { label: "Departments", href: "/categories" },
+    { label: "Categories", href: "/categories" },
     { label: "Electronics", href: "/categories/electronics" },
     { label: "Home & Kitchen", href: "/categories/home-kitchen" },
+    { label: "Fashion", href: "/categories/fashion-accessories" },
     { label: "Best Sellers", href: "/best-sellers" },
-    { label: "New Arrivals", href: "/new-arrivals" },
     { label: "Deals", href: "/shop?sale=true" },
   ],
   customerCare: [
