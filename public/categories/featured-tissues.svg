@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  
+      <rect x="245" y="255" width="110" height="70" rx="4" fill="#1B4D3E"/>
+      <rect x="255" y="265" width="90" height="50" rx="2" fill="white" opacity="0.9"/>
+      <path d="M280 255 Q300 230 320 255" fill="white" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="50%" y="572" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600">Tissues</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(24,28) scale(0.92)">
+    
+    <rect x="180" y="100" width="240" height="320" rx="4" fill="#e5e7eb"/>
+    <rect x="195" y="130" width="240" height="320" rx="4" fill="#f3f4f6"/>
+    <rect x="210" y="160" width="240" height="320" rx="4" fill="#1B4D3E" opacity="0.15"/>
+    <rect x="210" y="160" width="240" height="320" rx="4" fill="none" stroke="#1B4D3E" stroke-width="3"/>
+    <line x1="240" y1="220" x2="420" y2="220" stroke="#1B4D3E" stroke-width="4" opacity="0.4"/>
+    <line x1="240" y1="260" x2="400" y2="260" stroke="#1B4D3E" stroke-width="4" opacity="0.35"/>
+    <line x1="240" y1="300" x2="410" y2="300" stroke="#1B4D3E" stroke-width="4" opacity="0.3"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Copy Paper, Letter, 20 lb, 96 Bright, 500…</text>
+</svg>

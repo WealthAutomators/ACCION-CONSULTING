@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(24,28) scale(0.92)">
+    
+    <path d="M160 180 L180 440 L420 440 L440 180 Z" fill="#1B4D3E" opacity="0.8"/>
+    <rect x="150" y="160" width="300" height="40" rx="8" fill="#2a6b55"/>
+    <rect x="220" y="240" width="160" height="120" rx="6" fill="#fff" opacity="0.2"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Stackable Storage Bin, Open Front, Medium…</text>
+</svg>

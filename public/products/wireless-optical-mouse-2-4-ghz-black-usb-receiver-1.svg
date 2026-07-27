@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(0,0) scale(1)">
+    
+    <ellipse cx="300" cy="280" rx="90" ry="130" fill="#1B4D3E"/>
+    <line x1="300" y1="180" x2="300" y2="280" stroke="#fff" stroke-width="4" opacity="0.5"/>
+    <ellipse cx="300" cy="200" rx="20" ry="12" fill="#2a6b55"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Wireless Optical Mouse, 2.4 GHz, Black, U…</text>
+</svg>

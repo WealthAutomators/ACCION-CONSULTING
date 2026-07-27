@@ -1,35 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="268" height="52" viewBox="0 0 268 52" fill="none">
-  <rect x="0" y="4" width="44" height="44" rx="14" fill="#2563EB"/>
-  <path d="M12 16.5C12 14.567 13.567 13 15.5 13H28.5C30.433 13 32 14.567 32 16.5V18H12V16.5Z" fill="#F97316"/>
-  <path d="M15 18H29L27.3 32.3C27.097 34.003 25.653 35.286 23.938 35.286H20.062C18.347 35.286 16.903 34.003 16.7 32.3L15 18Z" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.6"/>
-  <path d="M18.4 20.2C18.4 17.99 20.19 16.2 22.4 16.2V16.2C24.61 16.2 26.4 17.99 26.4 20.2" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" fill="none">
+  <path d="M22 6L38 38H30.5L22 20.5L13.5 38H6L22 6Z" fill="#1B4D3E"/>
+  <path d="M22 14L28.5 28H15.5L22 14Z" fill="#2D6A56"/>
   <text
-    x="22"
-    y="28.5"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    fill="#FFFFFF"
+    x="48"
+    y="32"
+    fill="#1B4D3E"
     font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    font-size="10.5"
+    font-size="22"
     font-weight="800"
-    letter-spacing="-0.4"
-  >FV</text>
-  <text
-    x="58"
-    y="22"
-    fill="#111827"
-    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    font-size="17"
-    font-weight="800"
-    letter-spacing="-0.25"
-  >FELI VENTURES</text>
-  <text
-    x="58"
-    y="40"
-    fill="#F97316"
-    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-    font-size="10.5"
-    font-weight="800"
-    letter-spacing="3.6"
-  >LLC</text>
+    letter-spacing="1.5"
+  >ACCION</text>
 </svg>

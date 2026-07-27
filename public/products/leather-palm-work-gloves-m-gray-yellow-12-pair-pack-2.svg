@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(24,28) scale(0.92)">
+    
+    <path d="M200 200 Q180 160 200 140 Q220 120 240 150 L250 280 L230 420 L280 430 L300 300 L320 430 L370 420 L350 280 L360 150 Q380 120 400 140 Q420 160 400 200 Z" fill="#1B4D3E" opacity="0.85"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Leather Palm Work Gloves, M, Gray/Yellow,…</text>
+</svg>

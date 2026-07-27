@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/navbar/site-header";
 import { Footer } from "@/components/footer/footer";
 import { Providers } from "@/components/providers/Providers";
+import { BackToTop } from "@/components/ui/back-to-top";
 import { company } from "@/data/company";
 
 const inter = Inter({
@@ -12,28 +13,28 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://feliventuresllc.com"),
+  metadataBase: new URL("https://accionitconsulting.com"),
   title: {
     default: `${company.name} | ${company.tagline}`,
     template: `%s | ${company.name}`,
   },
   description: company.description,
   keywords: [
-    "FELI VENTURES LLC",
-    "modern marketplace",
-    "electronics",
-    "home essentials",
-    "beauty",
-    "toys",
-    "gaming",
-    "lifestyle shopping",
+    "ACCION",
+    "Accion IT Consulting",
+    "office supplies",
+    "janitorial supplies",
+    "cleaning products",
+    "B2B marketplace",
+    "breakroom supplies",
+    "industrial supplies",
   ],
   openGraph: {
     type: "website",
     siteName: company.name,
     title: `${company.name} | ${company.tagline}`,
     description: company.description,
-    url: "https://feliventuresllc.com",
+    url: "https://accionitconsulting.com",
     locale: "en_US",
   },
   twitter: {
@@ -46,16 +47,19 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: company.name,
+  name: company.legalName,
+  alternateName: company.name,
   description: company.description,
   email: company.email,
+  telephone: company.phone,
   slogan: company.tagline,
-  url: "https://feliventuresllc.com",
+  url: "https://accionitconsulting.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: company.address.street,
     addressLocality: company.address.city,
     addressRegion: company.address.state,
+    postalCode: company.address.zip,
     addressCountry: company.address.country,
   },
 };
@@ -76,6 +80,7 @@ export default function RootLayout({
           <SiteHeader />
           <main className="flex-1">{children}</main>
           <Footer />
+          <BackToTop />
         </Providers>
       </body>
     </html>

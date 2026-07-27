@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(0,0) scale(1)">
+    
+    <rect x="200" y="140" width="200" height="320" rx="20" fill="#1B4D3E"/>
+    <ellipse cx="300" cy="140" rx="100" ry="28" fill="#2a6b55"/>
+    <rect x="230" y="220" width="140" height="120" rx="8" fill="#fff" opacity="0.25"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Non-Dairy Creamer Powder, Original, 35 oz…</text>
+</svg>

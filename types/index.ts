@@ -80,6 +80,10 @@ export interface PromoBanner {
   buttonText: string;
   buttonLink: string;
   image: string;
+  manufacturer?: string;
+  model?: string;
+  material?: string;
+  price?: string;
 }
 
 export interface InstagramPost {

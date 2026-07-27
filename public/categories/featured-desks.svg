@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  
+      <rect x="210" y="280" width="180" height="14" rx="2" fill="#1B4D3E"/>
+      <rect x="220" y="294" width="12" height="50" fill="#2D6A56"/>
+      <rect x="368" y="294" width="12" height="50" fill="#2D6A56"/>
+      <rect x="260" y="245" width="80" height="35" rx="2" fill="#F3F4F6" stroke="#1B4D3E" stroke-width="2"/>
+  <text x="50%" y="572" text-anchor="middle" fill="#9CA3AF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600">Desks</text>
+</svg>

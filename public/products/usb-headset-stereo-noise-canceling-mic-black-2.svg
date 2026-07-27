@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(24,28) scale(0.92)">
+    
+    <path d="M160 280 Q160 140 300 140 Q440 140 440 280" fill="none" stroke="#1B4D3E" stroke-width="20"/>
+    <rect x="130" y="260" width="50" height="100" rx="12" fill="#1B4D3E"/>
+    <rect x="420" y="260" width="50" height="100" rx="12" fill="#1B4D3E"/>
+    <path d="M180 340 Q240 400 300 360" fill="none" stroke="#2a6b55" stroke-width="10"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">USB Headset, Stereo, Noise-Canceling Mic,…</text>
+</svg>

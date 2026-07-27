@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(24,28) scale(0.92)">
+    
+    <path d="M140 200 L160 440 L440 440 L460 200 Z" fill="#1B4D3E"/>
+    <path d="M200 200 Q300 120 400 200" fill="none" stroke="#2a6b55" stroke-width="16"/>
+    <rect x="200" y="260" width="200" height="100" rx="6" fill="#fff" opacity="0.2"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">File Tote Box, Letter/Legal, Plastic Lid,…</text>
+</svg>

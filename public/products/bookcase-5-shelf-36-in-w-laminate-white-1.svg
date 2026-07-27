@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(0,0) scale(1)">
+    
+    <rect x="120" y="140" width="360" height="16" fill="#1B4D3E"/>
+    <rect x="120" y="240" width="360" height="16" fill="#1B4D3E"/>
+    <rect x="120" y="340" width="360" height="16" fill="#1B4D3E"/>
+    <rect x="120" y="440" width="360" height="16" fill="#1B4D3E"/>
+    <rect x="120" y="140" width="16" height="316" fill="#2a6b55"/>
+    <rect x="464" y="140" width="16" height="316" fill="#2a6b55"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Bookcase, 5-Shelf, 36 in W, Laminate, Whi…</text>
+</svg>

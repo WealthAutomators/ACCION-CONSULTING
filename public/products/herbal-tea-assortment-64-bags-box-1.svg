@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FFFFFF"/>
+  <g transform="translate(0,0) scale(1)">
+    
+    <rect x="180" y="180" width="240" height="260" rx="8" fill="#1B4D3E"/>
+    <ellipse cx="300" cy="180" rx="120" ry="30" fill="#2a6b55"/>
+    <rect x="220" y="240" width="160" height="120" rx="6" fill="#fff" opacity="0.2"/>
+  </g>
+  <text x="300" y="560" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif" font-size="14">Herbal Tea Assortment, 64 Bags/Box</text>
+</svg>

@@ -2,70 +2,73 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { Menu } from "lucide-react";
+import { browseCategories } from "@/data/categories";
 import { heroSlides } from "@/data/homepage";
 import { Container } from "@/components/ui/container";
-import { Button } from "@/components/ui/button";
+import { Carousel } from "@/components/ui/carousel";
 
 export function HeroBanner() {
-  const slide = heroSlides[0];
-
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary/10 via-white to-accent/10">
-      <div className="absolute -left-24 top-10 h-56 w-56 rounded-full bg-primary/15 blur-3xl" />
-      <div className="absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-accent/15 blur-3xl" />
-      <Container className="relative py-14 md:py-18">
-        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(360px,520px)] lg:gap-14">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-2xl"
-          >
-            <span className="inline-flex rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-primary">
-              Modern Living. Better Shopping.
-            </span>
-            <h1 className="mt-5 whitespace-pre-line text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              {slide.headline}
-            </h1>
-            <p className="mt-5 max-w-xl text-base text-muted-foreground sm:text-lg">
-              {slide.description}
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Button asChild size="lg">
-                <Link href={slide.ctaLink}>{slide.ctaText}</Link>
-              </Button>
-              {slide.secondaryCtaText && slide.secondaryCtaLink && (
-                <Button asChild size="lg" variant="outline">
-                  <Link href={slide.secondaryCtaLink}>{slide.secondaryCtaText}</Link>
-                </Button>
-              )}
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 24 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="relative"
-          >
-            <div className="absolute -left-5 top-6 z-10 rounded-2xl bg-secondary px-4 py-3 text-white shadow-lg">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/80">Weekly Deals</p>
-              <p className="mt-1 text-2xl font-bold">Up to 40% Off</p>
-            </div>
-            <div className="relative overflow-hidden rounded-[28px] border border-white/60 bg-white p-3 shadow-[0_24px_80px_-32px_rgba(37,99,235,0.45)]">
-              <div className="relative aspect-[5/4] overflow-hidden rounded-[22px]">
-                <Image
-                  src={slide.image}
-                  alt={slide.headline}
-                  fill
-                  priority
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 520px"
-                />
+    <section className="border-b border-border bg-white py-4 md:py-6">
+      <Container>
+        <div className="grid gap-4 lg:grid-cols-[260px_minmax(0,1fr)] lg:gap-5">
+          <aside className="hidden lg:block">
+            <div className="overflow-hidden rounded-sm border border-border">
+              <div className="flex items-center gap-2.5 bg-primary px-4 py-3 text-sm font-bold uppercase tracking-wide text-white">
+                <Menu className="h-4 w-4" />
+                Browse Categories
               </div>
+              <ul className="max-h-[420px] overflow-y-auto bg-white">
+                {browseCategories.map((item) => (
+                  <li key={item.label} className="border-b border-border last:border-b-0">
+                    <Link
+                      href={item.href}
+                      className="block px-4 py-2.5 text-sm text-foreground/85 transition-colors hover:bg-muted hover:text-primary"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-          </motion.div>
+          </aside>
+
+          <div className="min-w-0">
+            <Carousel
+              autoplay
+              autoplayDelay={5000}
+              showArrows
+              showDots
+              slidesToShow={1}
+              className="overflow-hidden rounded-sm border border-border bg-white"
+              slideClassName="px-0"
+            >
+              {heroSlides.map((slide) => (
+                <Link
+                  key={slide.id}
+                  href={slide.ctaLink}
+                  className="relative block aspect-[16/9] w-full bg-muted sm:aspect-[21/9] lg:aspect-[2.4/1]"
+                >
+                  <Image
+                    src={slide.image}
+                    alt={slide.headline}
+                    fill
+                    priority={slide.id === "1"}
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 70vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-black/35 via-transparent to-transparent" />
+                  <div className="absolute bottom-6 left-6 max-w-md text-white drop-shadow-md">
+                    <h2 className="text-xl font-bold uppercase tracking-wide sm:text-2xl lg:text-3xl">
+                      {slide.headline}
+                    </h2>
+                    <p className="mt-2 text-sm text-white/90 sm:text-base">{slide.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </Carousel>
+          </div>
         </div>
       </Container>
     </section>

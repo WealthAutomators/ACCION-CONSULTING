@@ -1,20 +1,29 @@
-import {
-  Feature,
-  HeroSlide,
-  PromoBanner,
-} from "@/types";
+import { Feature, HeroSlide, PromoBanner } from "@/types";
 
 export const heroSlides: HeroSlide[] = [
   {
     id: "1",
-    image: "/hero/hero-2.svg",
-    headline: "Shop Smarter.\nLive Better.",
-    description:
-      "Everything from electronics and home essentials to beauty, toys and everyday favorites.",
-    ctaText: "Shop Collection",
-    ctaLink: "/shop",
-    secondaryCtaText: "Today's Deals",
-    secondaryCtaLink: "/shop?sale=true",
+    image: "/hero/hero-cleaning.svg",
+    headline: "Commercial Cleaning Supplies",
+    description: "Stock your facility with professional janitorial essentials.",
+    ctaText: "Shop Janitorial",
+    ctaLink: "/categories/janitorial",
+  },
+  {
+    id: "2",
+    image: "/hero/hero-office.svg",
+    headline: "Office Essentials, Delivered",
+    description: "Pens, paper, planners, and everything your workplace needs.",
+    ctaText: "Shop Office",
+    ctaLink: "/categories/office",
+  },
+  {
+    id: "3",
+    image: "/hero/hero-breakroom.svg",
+    headline: "Breakroom & Coffee Supplies",
+    description: "Keep your team fueled with coffee, cups, and snacks.",
+    ctaText: "Shop Food",
+    ctaLink: "/categories/food",
   },
 ];
 
@@ -22,116 +31,163 @@ export const features: Feature[] = [
   {
     id: "1",
     icon: "truck",
-    title: "Fast Shipping",
-    description: "Enjoy quick delivery on everyday essentials, trend finds, and top-rated picks across the store.",
+    title: "Fast Delivery",
+    description: "Reliable shipping on office, cleaning, and industrial supplies.",
   },
   {
     id: "2",
     icon: "shield",
-    title: "Secure Checkout",
-    description: "Shop with confidence through a smooth, protected checkout experience on every order.",
+    title: "Trusted Quality",
+    description: "Commercial-grade products for workplaces that demand consistency.",
   },
   {
     id: "3",
     icon: "star",
-    title: "Premium Products",
-    description: "We curate quality products that balance style, function, and everyday value.",
+    title: "Bulk Ready",
+    description: "Carton and case packs sized for offices, facilities, and warehouses.",
   },
   {
     id: "4",
     icon: "rotate",
     title: "Easy Returns",
-    description: "Changed your mind? Our return process is straightforward and designed to keep shopping stress-free.",
+    description: "Straightforward return policies on eligible Accion orders.",
   },
 ];
 
 export const dealsEndTime = new Date(Date.now() + 1000 * 60 * 60 * 18).toISOString();
 
-export const homepageDealsSlugs = [
-  "wireless-noise-canceling-earbuds",
-  "digital-air-fryer-oven",
-  "plush-memory-foam-dog-bed",
-  "family-board-game-bundle",
-  "smart-baby-monitor",
-  "polarized-everyday-sunglasses",
+export const homepageDealsSlugs = [] as const;
+
+export const homepageTrendingSlugs = [] as const;
+
+export const homepageBestsellerSlugs = [] as const;
+
+export const homepageFeaturedSlugs = [] as const;
+
+export const homepageNewArrivalSlugs = [] as const;
+
+export const homepageSaleSlugs = [] as const;
+
+/** Populated after catalog generation — collections use category filters as fallback */
+export const productCollections = [
+  {
+    id: "office",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Office Supplies",
+    categorySlug: "office",
+    viewMoreLink: "/categories/office",
+  },
+  {
+    id: "mice-keyboards",
+    eyebrow: "ACCION COMPUTER COLLECTIONS",
+    title: "Mouse & Keyboards",
+    categorySlug: "technology",
+    searchHint: "mouse",
+    viewMoreLink: "/categories/technology",
+  },
+  {
+    id: "coffee",
+    eyebrow: "ACCION COFFEE",
+    title: "Coffee Collection",
+    categorySlug: "food",
+    searchHint: "coffee",
+    viewMoreLink: "/categories/food",
+  },
+  {
+    id: "hand-sanitizer",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Hand Sanitizer",
+    categorySlug: "janitorial",
+    searchHint: "sanitizer",
+    viewMoreLink: "/categories/janitorial",
+  },
+  {
+    id: "disinfecting",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Disinfecting Products",
+    categorySlug: "janitorial",
+    searchHint: "disinfect",
+    viewMoreLink: "/categories/janitorial",
+  },
+  {
+    id: "furniture",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Furniture",
+    categorySlug: "furniture",
+    viewMoreLink: "/categories/furniture",
+  },
+  {
+    id: "industrial",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Industrial",
+    categorySlug: "industrial",
+    viewMoreLink: "/categories/industrial",
+  },
+  {
+    id: "paper",
+    eyebrow: "ACCION COLLECTIONS",
+    title: "Paper Products",
+    categorySlug: "paper",
+    viewMoreLink: "/categories/paper",
+  },
 ] as const;
 
-export const homepageTrendingSlugs = [
-  "wireless-noise-canceling-earbuds",
-  "portable-bluetooth-speaker",
-  "glass-electric-kettle",
-  "kids-learning-tablet",
-  "vitamin-c-skincare-set",
-  "wireless-gaming-headset",
-  "led-desk-lamp",
-  "smart-fitness-watch",
-] as const;
+export const promoBanners: Array<PromoBanner & {
+  manufacturer?: string;
+  model?: string;
+  material?: string;
+  price?: string;
+}> = [
+  {
+    id: "1",
+    title: "Elevation Liquid Skincare Dispenser",
+    description: "Dispense confidence with professional soap and sanitiser systems.",
+    buttonText: "BUY NOW",
+    buttonLink: "/categories/bathroom",
+    image: "/banners/promo-dispenser.svg",
+    manufacturer: "Accion",
+    model: "570020A",
+    material: "PLASTIC",
+    price: "$8.80",
+  },
+  {
+    id: "2",
+    title: "Commercial Disinfecting Wipes Carton",
+    description: "Facility-ready wipe canisters for high-touch surfaces.",
+    buttonText: "BUY NOW",
+    buttonLink: "/categories/janitorial",
+    image: "/banners/promo-wipes.svg",
+    manufacturer: "ProClean",
+    model: "DW-75-6",
+    material: "PLASTIC",
+    price: "$59.00",
+  },
+];
 
-export const homepageBestsellerSlugs = [
-  "wireless-noise-canceling-earbuds",
-  "portable-bluetooth-speaker",
-  "digital-air-fryer-oven",
-  "luxury-bath-towel-set",
-  "vitamin-c-skincare-set",
-  "plush-memory-foam-dog-bed",
-  "wireless-gaming-headset",
-  "smart-baby-monitor",
-] as const;
-
-export const homepageFeaturedSlugs = [
-  "wireless-noise-canceling-earbuds",
-  "glass-electric-kettle",
-  "luxury-bath-towel-set",
-  "kids-learning-tablet",
-  "led-desk-lamp",
-  "digital-air-fryer-oven",
-  "non-slip-yoga-mat",
-  "plush-memory-foam-dog-bed",
-  "coffee-burr-grinder",
-  "portable-bluetooth-speaker",
-] as const;
-
-export const homepageNewArrivalSlugs = [
-  "stem-robot-builder-kit",
-  "collagen-hair-care-bundle",
-  "smart-baby-monitor",
-  "foam-roller-recovery-kit",
-  "rgb-mechanical-keyboard",
-  "dual-controller-charging-dock",
-] as const;
-
-export const promotionalBanner: PromoBanner = {
-  id: "1",
-  title: "Everything You Need For Everyday Living",
-  description:
-    "Quality products across every category with prices you'll love and service you can trust.",
-  buttonText: "Browse Collection",
-  buttonLink: "/shop",
-  image: "/banners/featured.svg",
-};
+export const promotionalBanner: PromoBanner = promoBanners[0];
 
 export const featuredCollection = {
   title: "Featured Products",
-  description:
-    "Hand-picked favorites across electronics, home, beauty, and more — everything you need in one trusted store.",
+  description: "Visit our shop to see amazing creations from our designers.",
   bannerImage: "/banners/featured.jpg",
-  categorySlug: "electronics",
+  categorySlug: "office",
+  eyebrow: "ACCION PICKS",
 };
 
 export const bestSellerTabs = [
-  { label: "All", slug: "all" },
-  { label: "Electronics", slug: "electronics" },
-  { label: "Home & Kitchen", slug: "home-kitchen" },
-  { label: "Beauty", slug: "beauty" },
-  { label: "Gaming", slug: "gaming" },
+  { label: "Best Sellers", slug: "bestsellers" },
+  { label: "Featured", slug: "featured" },
+  { label: "Sales", slug: "sales" },
 ];
 
 export const newsletter = {
-  title: "Stay Ahead Of Every Deal",
+  title: "Join Our Newsletter",
   description:
-    "Subscribe for exclusive offers, new arrivals and members-only discounts.",
+    "Stay updated on new arrivals, bulk pricing, and workplace supply essentials from Accion.",
   placeholder: "Enter your email address",
   buttonText: "Subscribe",
+  privacyNote: "Will be used in accordance with our Privacy Policy",
+  image: "/banners/newsletter.svg",
 };
 
 export const sortOptions = [
@@ -143,16 +199,19 @@ export const sortOptions = [
 ];
 
 export const aboutSection = {
-  title: "Modern Living. Better Shopping.",
+  eyebrow: "Your Everyday Essentials, Delivered",
+  title: "ABOUT OUR ACCION STORE",
   description:
-    "FELI VENTURES LLC brings together smart home upgrades, lifestyle staples, beauty favorites, tech, toys, and more in one bright modern marketplace built around convenience and value.",
+    "Accion is your go-to source for quality office, cleaning, and household essentials — delivered fast and affordably. From janitorial supplies to technology and breakroom staples, we stock the products workplaces rely on every day.",
   checklist: [
-    "Fresh finds across 12 everyday lifestyle categories",
-    "Friendly shopping experience with curated picks",
-    "Fast nationwide shipping on popular essentials",
-    "Helpful support before and after checkout",
+    "Commercial-grade office and facility supplies",
+    "Bulk and carton packaging for business needs",
+    "Fast, reliable delivery across the United States",
+    "Dedicated support for workplace purchasing",
   ],
-  buttonText: "Learn More About Us",
+  buttonText: "READ MORE",
   buttonLink: "/about",
-  image: "/banners/about.svg",
+  secondaryButtonText: "CONTACT US",
+  secondaryButtonLink: "/contact",
+  image: "/logo/logo.svg",
 };

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600">
+  <rect width="100%" height="100%" fill="#F8FAF9"/>
+  <rect x="40" y="40" width="1320" height="520" fill="#FFFFFF" stroke="#E5E7E6" stroke-width="1"/>
+  <g transform="translate(520, 240)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1B4D3E"/>
+    <rect x="90" y="0" width="80" height="120" rx="6" fill="#2D6A56"/>
+    <rect x="190" y="30" width="60" height="90" rx="10" fill="#1B4D3E"/>
+    <rect x="270" y="10" width="90" height="110" rx="4" fill="#2D6A56"/>
+  </g>
+  <text x="50%" y="550" text-anchor="middle" fill="#1B4D3E" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">Office Essentials</text>
+</svg>

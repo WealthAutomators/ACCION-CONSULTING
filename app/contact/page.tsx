@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Clock, CheckCircle } from "lucide-react";
+import { Mail, MapPin, Clock, CheckCircle, Phone } from "lucide-react";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -38,10 +38,11 @@ export default function ContactPage() {
             <div className="mt-8 space-y-6">
               {[
                 { icon: Mail, label: "Email", value: company.email },
+                { icon: Phone, label: "Phone", value: company.phone },
                 {
                   icon: MapPin,
                   label: "Address",
-                  value: `${company.address.street}, ${company.address.city}, ${company.address.state}`,
+                  value: `${company.address.street}, ${company.address.city}, ${company.address.state} ${company.address.zip}`,
                 },
                 { icon: Clock, label: "Hours", value: company.hours },
               ].map(({ icon: Icon, label, value }) => (

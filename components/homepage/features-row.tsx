@@ -14,7 +14,7 @@ export function FeaturesRow() {
   return (
     <section className="border-y border-border bg-card py-12 md:py-16">
       <Container>
-        <SectionHeading title="Why Shop With Feli" centered className="mb-10" />
+        <SectionHeading title="Why Shop With Accion" centered className="mb-10" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => {
             const Icon = iconMap[feature.icon as keyof typeof iconMap] || Truck;

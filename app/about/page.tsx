@@ -21,31 +21,55 @@ export default function AboutPage() {
 
       <Container className="pb-16">
         <div className="grid items-center gap-10 py-12 md:grid-cols-2 lg:gap-16">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-border shadow-sm">
-            <Image src="/banners/about.svg" alt={`About ${company.name}`} fill className="object-cover" sizes="50vw" />
+          <div className="flex items-center justify-center rounded-sm border border-border bg-muted p-10">
+            <Image
+              src="/logo/logo.svg"
+              alt={`About ${company.name}`}
+              width={280}
+              height={64}
+              className="h-16 w-auto"
+            />
           </div>
           <PageSection title="Our Story">
             <p>
-              FELI VENTURES LLC was created to make everyday shopping feel brighter, easier, and
-              more inspiring. We bring together practical home upgrades, modern tech, family
-              essentials, wellness finds, and lifestyle favorites in one clean marketplace.
+              Accion IT Consulting LLC is your go-to source for quality office, cleaning, and
+              household essentials — delivered fast and affordably. We stock commercial-grade
+              supplies for workplaces, facilities, and businesses that need reliable everyday
+              products.
             </p>
             <p className="mt-4">
-              Based in Upper Marlboro, Maryland, we focus on offering a curated mix of quality,
-              value, and convenience. Every item is chosen to support modern living, and our team is
-              committed to a smooth shopping experience from first click to final delivery update.
+              Based in Mableton, Georgia, Accion focuses on office supplies, janitorial products,
+              breakroom essentials, technology accessories, furniture, and industrial goods. Our
+              catalog is built for buyers who want clear pricing, carton-ready packs, and a
+              straightforward shopping experience.
             </p>
           </PageSection>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: ShoppingBag, title: "Everyday Variety", desc: "Shop electronics, home, beauty, wellness, toys, fashion, and more in one place." },
-            { icon: Award, title: "Curated Quality", desc: "We focus on useful, stylish products that feel good to bring into everyday life." },
-            { icon: Heart, title: "Friendly Service", desc: "Helpful support and easy returns keep shopping simple from start to finish." },
-            { icon: Check, title: "Modern Convenience", desc: "A polished store experience built for fast browsing, smooth checkout, and repeat visits." },
+            {
+              icon: ShoppingBag,
+              title: "Workplace Essentials",
+              desc: "Office, janitorial, breakroom, technology, and industrial supplies in one store.",
+            },
+            {
+              icon: Award,
+              title: "Commercial Quality",
+              desc: "Products selected for facilities, offices, and everyday business operations.",
+            },
+            {
+              icon: Heart,
+              title: "Reliable Service",
+              desc: "Helpful support and clear policies for purchasing teams and facility managers.",
+            },
+            {
+              icon: Check,
+              title: "Fast Delivery",
+              desc: "A clean storefront experience built for quick browsing and repeat ordering.",
+            },
           ].map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="rounded-lg border border-border bg-card p-6 text-center shadow-sm">
+            <div key={title} className="rounded-sm border border-border bg-card p-6 text-center shadow-sm">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                 <Icon className="h-5 w-5 text-primary" />
               </div>
@@ -58,7 +82,7 @@ export default function AboutPage() {
         <PageSection title="What Our Customers Say" className="mt-16">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {testimonials.map((t) => (
-              <div key={t.id} className="rounded-lg border border-border bg-card p-6 shadow-sm">
+              <div key={t.id} className="rounded-sm border border-border bg-card p-6 shadow-sm">
                 <StarRating rating={t.rating} showCount={false} size="md" />
                 <p className="mt-4 text-sm leading-relaxed text-muted-foreground">&ldquo;{t.text}&rdquo;</p>
                 <p className="mt-4 text-sm font-medium">{t.name}</p>
@@ -68,9 +92,12 @@ export default function AboutPage() {
           </div>
         </PageSection>
 
-        <div className="mt-12 text-center">
-          <Button asChild size="lg">
+        <div className="mt-12 flex flex-wrap justify-center gap-3">
+          <Button asChild size="lg" className="rounded-sm">
             <Link href="/shop">Shop Our Collection</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="rounded-sm">
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
       </Container>

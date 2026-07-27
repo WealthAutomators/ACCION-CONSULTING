@@ -2,63 +2,45 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import { categories } from "@/data/categories";
+import { featuredCategoryCards } from "@/data/categories";
 import { Container } from "@/components/ui/container";
-import { SectionHeading } from "@/components/ui/section-heading";
-
-const homepageCategorySlugs = [
-  "electronics",
-  "home-kitchen",
-  "beauty",
-  "gaming",
-  "sports-outdoors",
-  "toys-games",
-  "pet-supplies",
-  "health-wellness",
-];
+import { Carousel } from "@/components/ui/carousel";
 
 export function CategoryCarousel() {
-  const homepageCategories = homepageCategorySlugs
-    .map((slug) => categories.find((c) => c.slug === slug))
-    .filter((c): c is (typeof categories)[number] => Boolean(c));
-
   return (
-    <section className="py-12 md:py-16">
+    <section className="bg-white py-10 md:py-14">
       <Container>
-        <SectionHeading
-          title="Shop By Category"
-          subtitle="Discover bright everyday finds across the store's most-loved departments."
-          centered
-        />
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-          {homepageCategories.map((category) => (
+        <div className="mb-8 text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">
+            Accion COLLECTIONS
+          </p>
+          <h2 className="mt-2 text-2xl font-bold uppercase tracking-wide text-foreground md:text-3xl">
+            Featured Categories
+          </h2>
+        </div>
+
+        <Carousel slidesToShow={4} showArrows={false} showDots autoplay autoplayDelay={6000}>
+          {featuredCategoryCards.map((card) => (
             <Link
-              key={category.id}
-              href={`/categories/${category.slug}`}
-              className="group relative block overflow-hidden rounded-[20px] border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl"
+              key={card.slug + card.label}
+              href={`/categories/${card.slug}`}
+              className="group relative block aspect-square overflow-hidden rounded-md bg-primary"
             >
-              <div className="relative aspect-[16/10] overflow-hidden">
-                <Image
-                  src={category.image}
-                  alt={category.name}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 1024px) 50vw, 25vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-foreground/75 via-primary/15 to-transparent transition-colors duration-300 group-hover:from-primary/80 group-hover:via-primary/45" />
-                <div className="absolute inset-0 flex flex-col items-start justify-end p-4">
-                  <span className="text-base font-semibold text-white drop-shadow-md">
-                    {category.name}
-                  </span>
-                  <span className="mt-0.5 flex items-center gap-1 text-xs font-medium text-white/0 transition-colors duration-300 group-hover:text-accent">
-                    Shop now <ArrowUpRight className="h-3.5 w-3.5" />
-                  </span>
-                </div>
+              <Image
+                src={card.image}
+                alt={card.label}
+                fill
+                className="object-contain p-6 transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/50 to-transparent p-4 pt-10">
+                <span className="text-sm font-bold uppercase tracking-wide text-white">
+                  {card.label}
+                </span>
               </div>
             </Link>
           ))}
-        </div>
+        </Carousel>
       </Container>
     </section>
   );
