@@ -3,7 +3,7 @@ import { Feature, HeroSlide, PromoBanner } from "@/types";
 export const heroSlides: HeroSlide[] = [
   {
     id: "1",
-    image: "/hero/hero-cleaning.svg",
+    image: "/hero/hero-cleaning.png",
     headline: "Commercial Cleaning Supplies",
     description: "Stock your facility with professional janitorial essentials.",
     ctaText: "Shop Janitorial",
@@ -11,16 +11,16 @@ export const heroSlides: HeroSlide[] = [
   },
   {
     id: "2",
-    image: "/hero/hero-office.svg",
-    headline: "Office Essentials, Delivered",
+    image: "/hero/hero-dawn.png",
+    headline: "Dawn Dish Care Essentials",
     description: "Pens, paper, planners, and everything your workplace needs.",
     ctaText: "Shop Office",
     ctaLink: "/categories/office",
   },
   {
     id: "3",
-    image: "/hero/hero-breakroom.svg",
-    headline: "Breakroom & Coffee Supplies",
+    image: "/hero/hero-stationery.png",
+    headline: "Stationery Sale This Week",
     description: "Keep your team fueled with coffee, cups, and snacks.",
     ctaText: "Shop Food",
     ctaLink: "/categories/food",
@@ -140,24 +140,24 @@ export const promoBanners: Array<PromoBanner & {
 }> = [
   {
     id: "1",
-    title: "Elevation Liquid Skincare Dispenser",
-    description: "Dispense confidence with professional soap and sanitiser systems.",
+    title: "Tork Soap and Sanitiser Systems",
+    description: "Dispense confidence with Tork Soap and Sanitiser Systems.",
     buttonText: "BUY NOW",
     buttonLink: "/categories/bathroom",
-    image: "/banners/promo-dispenser.svg",
-    manufacturer: "Accion",
+    image: "/banners/promo-tork.png",
+    manufacturer: "Tork",
     model: "570020A",
     material: "PLASTIC",
     price: "$8.80",
   },
   {
     id: "2",
-    title: "Commercial Disinfecting Wipes Carton",
-    description: "Facility-ready wipe canisters for high-touch surfaces.",
+    title: "Rubbermaid Commercial Products",
+    description: "Durable commercial waste, safety, and facility solutions.",
     buttonText: "BUY NOW",
     buttonLink: "/categories/janitorial",
-    image: "/banners/promo-wipes.svg",
-    manufacturer: "ProClean",
+    image: "/banners/promo-rubbermaid.png",
+    manufacturer: "Rubbermaid",
     model: "DW-75-6",
     material: "PLASTIC",
     price: "$59.00",
@@ -187,7 +187,7 @@ export const newsletter = {
   placeholder: "Enter your email address",
   buttonText: "Subscribe",
   privacyNote: "Will be used in accordance with our Privacy Policy",
-  image: "/banners/newsletter.svg",
+  image: "/banners/newsletter.png",
 };
 
 export const sortOptions = [

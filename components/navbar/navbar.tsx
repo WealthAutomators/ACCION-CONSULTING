@@ -70,12 +70,14 @@ export function Navbar() {
 
             <Link
               href="/cart"
-              className="relative flex items-center gap-2 rounded-full border border-primary px-3 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-white"
+              className="group/cart relative flex items-center gap-2 rounded-full border border-primary bg-white px-3 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:!text-white"
               aria-label="Cart"
             >
-              <ShoppingCart className="h-4 w-4" />
-              <span className="hidden sm:inline">{formatPrice(total)}</span>
-              <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">
+              <ShoppingCart className="h-4 w-4 text-primary transition-colors group-hover/cart:text-white" />
+              <span className="hidden text-primary transition-colors group-hover/cart:text-white sm:inline">
+                {formatPrice(total)}
+              </span>
+              <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white group-hover/cart:bg-white group-hover/cart:text-primary">
                 {itemCount}
               </span>
             </Link>

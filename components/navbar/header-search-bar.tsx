@@ -63,11 +63,11 @@ export function HeaderSearchBar({ className }: HeaderSearchBarProps) {
   return (
     <div ref={searchRef} className={cn("relative w-full", className)}>
       <form onSubmit={handleSearchSubmit}>
-        <div className="flex h-12 overflow-hidden rounded-sm border border-border bg-white">
+        <div className="flex h-12 rounded-sm border border-border bg-white">
           <input
             type="search"
             placeholder="Search for products"
-            className="min-w-0 flex-1 bg-transparent px-4 text-sm outline-none placeholder:text-muted-foreground"
+            className="min-w-0 flex-1 rounded-l-sm bg-transparent px-4 text-sm outline-none placeholder:text-muted-foreground"
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
@@ -85,7 +85,7 @@ export function HeaderSearchBar({ className }: HeaderSearchBarProps) {
               <ChevronDown className="h-3.5 w-3.5 shrink-0" />
             </button>
             {catOpen && (
-              <div className="absolute right-0 top-full z-50 mt-1 max-h-72 w-56 overflow-auto rounded-sm border border-border bg-white py-1 shadow-lg">
+              <div className="absolute right-0 top-full z-[60] mt-1 max-h-72 w-56 overflow-auto rounded-sm border border-border bg-white py-1 shadow-lg">
                 <button
                   type="button"
                   className="block w-full px-3 py-2 text-left text-xs hover:bg-muted"
@@ -114,7 +114,7 @@ export function HeaderSearchBar({ className }: HeaderSearchBarProps) {
           </div>
           <button
             type="submit"
-            className="flex h-12 w-12 shrink-0 items-center justify-center bg-primary text-white transition-colors hover:bg-secondary"
+            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-r-sm bg-primary text-white transition-colors hover:bg-secondary"
             aria-label="Search products"
           >
             <Search className="h-4 w-4" />
