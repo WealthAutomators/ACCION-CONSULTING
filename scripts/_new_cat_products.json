@@ -1,0 +1,296 @@
+{
+  "furniture": [
+    [
+      "office-chair",
+      "black office chair ergonomic",
+      {
+        "name": "Ergonomic Mesh Office Chair, Black",
+        "desc": "Breathable mesh-back task chair with adjustable height for all-day desk work.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Back": "Mesh",
+          "Color": "Black"
+        },
+        "price": 189.99,
+        "sale": 159.99
+      }
+    ],
+    [
+      "standing-desk",
+      "standing desk office",
+      {
+        "name": "Electric Standing Desk, 48 in, White",
+        "desc": "Height-adjustable standing desk with laminate top for hybrid workstations.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Width": "48 in",
+          "Top": "Laminate"
+        },
+        "price": 349.0
+      }
+    ],
+    [
+      "bookshelf",
+      "office bookshelf wood",
+      {
+        "name": "5-Shelf Bookcase, Espresso Finish",
+        "desc": "Five-shelf bookcase for binders, manuals, and office storage.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Shelves": "5",
+          "Finish": "Espresso"
+        },
+        "price": 129.5
+      }
+    ],
+    [
+      "conference-table",
+      "conference table office",
+      {
+        "name": "Conference Table, 6 ft, Laminate Top",
+        "desc": "Six-foot conference table for meeting rooms and collaboration spaces.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Length": "6 ft",
+          "Top": "Laminate"
+        },
+        "price": 429.0
+      }
+    ]
+  ],
+  "industrial": [
+    [
+      "hard-hat-safety",
+      "yellow hard hat safety",
+      {
+        "name": "Safety Hard Hat, Cap Style, Yellow",
+        "desc": "Cap-style hard hat for warehouse, facility, and jobsite protection.",
+        "specs": {
+          "Brand": "Safety Pro",
+          "Style": "Cap",
+          "Color": "Yellow"
+        },
+        "price": 18.99
+      }
+    ],
+    [
+      "safety-vest",
+      "safety vest reflective",
+      {
+        "name": "High-Visibility Safety Vest, Lime, Class 2",
+        "desc": "ANSI Class 2 reflective safety vest for warehouse and yard work.",
+        "specs": {
+          "Brand": "Safety Pro",
+          "Class": "2",
+          "Color": "Lime"
+        },
+        "price": 12.49
+      }
+    ],
+    [
+      "utility-cart",
+      "utility cart industrial",
+      {
+        "name": "Utility Cart, 3-Shelf, Black Plastic",
+        "desc": "Three-shelf utility cart for moving supplies across facilities and warehouses.",
+        "specs": {
+          "Brand": "Facility Care",
+          "Shelves": "3",
+          "Color": "Black"
+        },
+        "price": 89.0,
+        "sale": 74.99
+      }
+    ],
+    [
+      "work-gloves",
+      "work gloves leather",
+      {
+        "name": "Leather Palm Work Gloves, Large, 12 Pair",
+        "desc": "Leather-palm work gloves for material handling and light industrial tasks.",
+        "specs": {
+          "Brand": "Safety Pro",
+          "Size": "Large",
+          "Pack": "12 Pair"
+        },
+        "price": 34.95
+      }
+    ]
+  ],
+  "paper": [
+    [
+      "copy-paper-ream",
+      "printer paper stack ream",
+      {
+        "name": "Copy Paper, 8.5 x 11, 20 lb, 10 Reams/Carton",
+        "desc": "Bright white letter-size copy paper for printers, copiers, and fax.",
+        "specs": {
+          "Brand": "Office Essentials",
+          "Size": "8.5 x 11",
+          "Weight": "20 lb"
+        },
+        "price": 52.99
+      }
+    ],
+    [
+      "legal-pads",
+      "yellow legal pad",
+      {
+        "name": "Legal Pads, Yellow, Wide Ruled, 12/Pack",
+        "desc": "Wide-ruled yellow legal pads for meetings and note-taking.",
+        "specs": {
+          "Brand": "Office Essentials",
+          "Ruling": "Wide",
+          "Pack": "12"
+        },
+        "price": 14.29
+      }
+    ],
+    [
+      "sticky-notes",
+      "sticky notes pad colorful",
+      {
+        "name": "Sticky Notes, 3 x 3, Assorted Colors, 12 Pads",
+        "desc": "Assorted sticky notes for reminders, labeling, and desk organization.",
+        "specs": {
+          "Brand": "Office Essentials",
+          "Size": "3 x 3",
+          "Pads": "12"
+        },
+        "price": 9.99
+      }
+    ],
+    [
+      "shipping-labels",
+      "shipping labels roll",
+      {
+        "name": "Shipping Labels, 4 x 6, Thermal, 500/Roll",
+        "desc": "Thermal shipping labels for warehouse and mailroom printers.",
+        "specs": {
+          "Brand": "Office Essentials",
+          "Size": "4 x 6",
+          "Count": "500/Roll"
+        },
+        "price": 27.5
+      }
+    ]
+  ],
+  "storage": [
+    [
+      "storage-tote",
+      "plastic storage tote bin",
+      {
+        "name": "Plastic Storage Tote with Lid, 27 Gallon",
+        "desc": "Heavy-duty storage tote with lid for inventory and supply rooms.",
+        "specs": {
+          "Brand": "Facility Care",
+          "Capacity": "27 Gallon",
+          "Lid": "Included"
+        },
+        "price": 24.99
+      }
+    ],
+    [
+      "file-cabinet-storage",
+      "metal filing cabinet drawers",
+      {
+        "name": "2-Drawer Vertical File Cabinet, Letter, Metal",
+        "desc": "Letter-size 2-drawer metal file cabinet for office document storage.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Drawers": "2",
+          "Size": "Letter"
+        },
+        "price": 159.0,
+        "sale": 139.0
+      }
+    ],
+    [
+      "cube-organizer",
+      "cubby storage organizer wood",
+      {
+        "name": "9-Cube Storage Organizer, Espresso",
+        "desc": "Nine-cube organizer for binders, bins, and open office storage.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Cubes": "9",
+          "Finish": "Espresso"
+        },
+        "price": 79.99
+      }
+    ],
+    [
+      "wire-shelving",
+      "wire shelving unit chrome",
+      {
+        "name": "Chrome Wire Shelving Unit, 4-Tier, 48 in",
+        "desc": "Four-tier chrome wire shelving for stockrooms and breakrooms.",
+        "specs": {
+          "Brand": "Facility Care",
+          "Tiers": "4",
+          "Width": "48 in"
+        },
+        "price": 119.0
+      }
+    ]
+  ],
+  "lighting": [
+    [
+      "led-bulb-pack",
+      "led light bulb white",
+      {
+        "name": "LED A19 Light Bulbs, Soft White, 8/Pack",
+        "desc": "Energy-efficient soft white LED bulbs for offices and facilities.",
+        "specs": {
+          "Brand": "Facility Care",
+          "Type": "A19 LED",
+          "Pack": "8"
+        },
+        "price": 16.99
+      }
+    ],
+    [
+      "floor-lamp",
+      "floor lamp modern office",
+      {
+        "name": "LED Floor Lamp, Adjustable, Black",
+        "desc": "Adjustable LED floor lamp for lobbies, offices, and reading areas.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "Type": "Floor Lamp",
+          "Color": "Black"
+        },
+        "price": 64.5
+      }
+    ],
+    [
+      "under-cabinet-light",
+      "under cabinet led light strip",
+      {
+        "name": "Under-Cabinet LED Light Bar, 18 in, Plug-In",
+        "desc": "Plug-in LED light bar for cabinets, shelves, and workbenches.",
+        "specs": {
+          "Brand": "Facility Care",
+          "Length": "18 in",
+          "Power": "Plug-In"
+        },
+        "price": 22.95
+      }
+    ],
+    [
+      "desk-lamp-led",
+      "led desk lamp black",
+      {
+        "name": "LED Desk Lamp with USB Port, Black",
+        "desc": "Clamp-free LED desk lamp with USB charging port for workstations.",
+        "specs": {
+          "Brand": "Workspace Pro",
+          "USB": "Yes",
+          "Color": "Black"
+        },
+        "price": 39.99,
+        "sale": 32.99
+      }
+    ]
+  ]
+}

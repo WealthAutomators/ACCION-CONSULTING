@@ -7,7 +7,7 @@ export const categories: Category[] = [
     name: "Office",
     image: "/categories/office.png",
     description: "Pens, binders, planners, paper, and everyday desk essentials for productive workplaces.",
-    productCount: 51,
+    productCount: 49,
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ export const categories: Category[] = [
     name: "Janitorial Supplies & Cleaning",
     image: "/categories/janitorial.png",
     description: "Disinfectants, wipes, soaps, trash bags, and commercial cleaning supplies.",
-    productCount: 46,
+    productCount: 35,
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     name: "Technology",
     image: "/categories/technology.png",
     description: "Mice, keyboards, monitors, printers, and office electronics for modern workspaces.",
-    productCount: 36,
+    productCount: 66,
   },
   {
     id: "4",
@@ -31,7 +31,7 @@ export const categories: Category[] = [
     name: "Furniture",
     image: "/categories/furniture.png",
     description: "Office chairs, desks, cabinets, shelving, and commercial workspace furniture.",
-    productCount: 25,
+    productCount: 4,
   },
   {
     id: "5",
@@ -39,7 +39,7 @@ export const categories: Category[] = [
     name: "Food",
     image: "/categories/food.png",
     description: "Coffee, tea, creamers, cups, and breakroom essentials for the office.",
-    productCount: 30,
+    productCount: 35,
   },
   {
     id: "6",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     name: "Industrial",
     image: "/categories/industrial.png",
     description: "Safety gear, warehouse supplies, utility carts, and industrial cleaning chemicals.",
-    productCount: 25,
+    productCount: 4,
   },
   {
     id: "7",
@@ -55,7 +55,7 @@ export const categories: Category[] = [
     name: "Lighting",
     image: "/categories/lighting.png",
     description: "LED bulbs, desk lamps, extension cords, batteries, and lighting supplies.",
-    productCount: 20,
+    productCount: 11,
   },
   {
     id: "8",
@@ -63,7 +63,7 @@ export const categories: Category[] = [
     name: "Paper",
     image: "/categories/paper.png",
     description: "Copy paper, notebooks, tissues, towels, and commercial paper products.",
-    productCount: 20,
+    productCount: 4,
   },
   {
     id: "9",
@@ -71,7 +71,7 @@ export const categories: Category[] = [
     name: "Bathroom",
     image: "/categories/bathroom.png",
     description: "Toilet tissue, soap dispensers, hand sanitizer, and restroom supplies.",
-    productCount: 20,
+    productCount: 96,
   },
   {
     id: "10",
@@ -79,7 +79,7 @@ export const categories: Category[] = [
     name: "Storage",
     image: "/categories/storage.png",
     description: "Bins, totes, cabinets, and organizational storage for office and warehouse.",
-    productCount: 15,
+    productCount: 4,
   },
 ];
 
@@ -106,7 +106,7 @@ export const featuredCategoryCards = [
   { slug: "janitorial", label: "Disinfectant", image: "/categories/featured-disinfectant.png" },
   { slug: "food", label: "Coffee", image: "/categories/featured-coffee.png" },
   { slug: "bathroom", label: "Tissues", image: "/categories/featured-tissues.png" },
-  { slug: "lighting", label: "Led Bulbs", image: "/categories/featured-led.png" },
+  { slug: "lighting", label: "Led Bulbs", image: "/categories/featured-led-bulbs.jpg" },
   { slug: "furniture", label: "Desks", image: "/categories/featured-desks.png" },
   { slug: "technology", label: "Electronics", image: "/categories/featured-electronics.png" },
   { slug: "office", label: "Office", image: "/categories/featured-office.png" },

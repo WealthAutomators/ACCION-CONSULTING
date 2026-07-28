@@ -97,9 +97,9 @@ export const productCollections = [
     id: "hand-sanitizer",
     eyebrow: "ACCION COLLECTIONS",
     title: "Hand Sanitizer",
-    categorySlug: "janitorial",
+    categorySlug: "bathroom",
     searchHint: "sanitizer",
-    viewMoreLink: "/categories/janitorial",
+    viewMoreLink: "/categories/bathroom",
   },
   {
     id: "disinfecting",
