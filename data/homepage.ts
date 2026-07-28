@@ -183,11 +183,11 @@ export const bestSellerTabs = [
 export const newsletter = {
   title: "Join Our Newsletter",
   description:
-    "Stay updated on new arrivals, bulk pricing, and workplace supply essentials from Accion.",
+    "Get updates on workplace essentials, bulk pricing, and new arrivals from Accion.",
   placeholder: "Enter your email address",
   buttonText: "Subscribe",
   privacyNote: "Will be used in accordance with our Privacy Policy",
-  image: "/banners/newsletter.png",
+  image: "/banners/newsletter-lifestyle.jpg",
 };
 
 export const sortOptions = [
