@@ -1,0 +1,333 @@
+{
+  "ballpoint-pens": {
+    "name": "Ballpoint Pens, Medium Point, Black, 12/Pack",
+    "desc": "Reliable medium-point ballpoint pens for everyday office writing.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Point": "Medium",
+      "Color": "Black",
+      "Pack": "12"
+    }
+  },
+  "markers": {
+    "name": "Permanent Markers, Chisel Tip, Black, 12/Pack",
+    "desc": "Permanent markers for labeling boxes, bins, and warehouse use.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Tip": "Chisel",
+      "Color": "Black",
+      "Pack": "12"
+    }
+  },
+  "stapler": {
+    "name": "Desktop Stapler, Full Strip, Black",
+    "desc": "Full-strip desktop stapler for everyday office fastening.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Type": "Full Strip",
+      "Color": "Black"
+    }
+  },
+  "scissors": {
+    "name": "Straight Scissors, 8 in, Soft Grip, Stainless Steel",
+    "desc": "8-inch stainless scissors with soft-grip handles for office cutting.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Length": "8 in",
+      "Blade": "Stainless Steel"
+    }
+  },
+  "tape-dispenser": {
+    "name": "Desktop Tape Dispenser with Clear Tape",
+    "desc": "Weighted tape dispenser for office desks.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Type": "Desktop Dispenser"
+    }
+  },
+  "binder": {
+    "name": "Round Ring Binder, 1 in, Letter Size, Assorted",
+    "desc": "1-inch round ring binder for letter-size documents.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Ring": "1 in",
+      "Size": "Letter"
+    }
+  },
+  "folders": {
+    "name": "Manila File Folders, Letter Size, 1/3-Cut, 100/Box",
+    "desc": "Letter-size manila folders with 1/3-cut tabs.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Size": "Letter",
+      "Count": "100/Box"
+    }
+  },
+  "notebook": {
+    "name": "Spiral Notebook, College Ruled, Letter Size",
+    "desc": "College-ruled spiral notebook for meetings and notes.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Ruling": "College",
+      "Size": "Letter"
+    }
+  },
+  "copy-paper": {
+    "name": "Copy Paper, 8.5 x 11, 20 lb, 10 Reams/Carton",
+    "desc": "Bright white letter-size copy paper for printers and copiers.",
+    "brand": "Office Essentials",
+    "cat": "Office",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Size": "8.5 x 11",
+      "Weight": "20 lb"
+    }
+  },
+  "keyboard": {
+    "name": "Full-Size Wired Keyboard, USB, Black",
+    "desc": "Full-size USB keyboard for office workstations.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Connectivity": "USB",
+      "Color": "Black"
+    }
+  },
+  "monitor": {
+    "name": "24-Inch LED Computer Monitor, Full HD",
+    "desc": "24-inch Full HD LED monitor for office desktops.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Size": "24 in",
+      "Resolution": "Full HD"
+    }
+  },
+  "usb-hub": {
+    "name": "USB Hub, 4-Port, USB 3.0, Black",
+    "desc": "4-port USB 3.0 hub for expanding workstation ports.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Ports": "4",
+      "Standard": "USB 3.0"
+    }
+  },
+  "webcam": {
+    "name": "HD Webcam with Microphone, Black",
+    "desc": "HD webcam with built-in microphone for video meetings.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Resolution": "HD",
+      "Mic": "Built-in"
+    }
+  },
+  "headset": {
+    "name": "USB Stereo Headset with Microphone",
+    "desc": "Stereo headset with boom mic for calls and webinars.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Connectivity": "USB",
+      "Mic": "Boom"
+    }
+  },
+  "power-strip": {
+    "name": "Surge Protector Power Strip, 6 Outlet",
+    "desc": "6-outlet surge protector for office equipment.",
+    "brand": "Tech Essentials",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Tech Essentials",
+      "Outlets": "6",
+      "Type": "Surge Protector"
+    }
+  },
+  "paper-towels": {
+    "name": "Paper Towels, Perforated Roll, 2-Ply, 30 Rolls",
+    "desc": "2-ply perforated paper towels for facilities and breakrooms.",
+    "brand": "Facility Care",
+    "cat": "Cleaning",
+    "specs": {
+      "Brand": "Facility Care",
+      "Ply": "2",
+      "Count": "30 Rolls"
+    }
+  },
+  "trash-bags": {
+    "name": "Trash Bags, 33 Gallon, Heavy Duty, 100/Box",
+    "desc": "Heavy-duty 33-gallon trash bags for facility waste bins.",
+    "brand": "Facility Care",
+    "cat": "Cleaning",
+    "specs": {
+      "Brand": "Facility Care",
+      "Size": "33 Gallon",
+      "Count": "100/Box"
+    }
+  },
+  "mop-bucket": {
+    "name": "Mop Bucket with Wringer, 35 qt, Yellow",
+    "desc": "Commercial mop bucket with side-press wringer for janitorial use.",
+    "brand": "Facility Care",
+    "cat": "Cleaning",
+    "specs": {
+      "Brand": "Facility Care",
+      "Capacity": "35 qt",
+      "Color": "Yellow"
+    }
+  },
+  "nitrile-gloves": {
+    "name": "Nitrile Exam Gloves, Powder-Free, 100/Box",
+    "desc": "Powder-free nitrile exam gloves for cleaning and facility work.",
+    "brand": "Facility Care",
+    "cat": "Safety",
+    "specs": {
+      "Brand": "Facility Care",
+      "Material": "Nitrile",
+      "Count": "100/Box"
+    }
+  },
+  "hand-sanitizer": {
+    "name": "Hand Sanitizer Gel, 1 L Pump Bottle",
+    "desc": "1 liter pump bottle of hand sanitizer gel for workplaces.",
+    "brand": "Facility Care",
+    "cat": "Cleaning",
+    "specs": {
+      "Brand": "Facility Care",
+      "Size": "1 L",
+      "Type": "Gel"
+    }
+  },
+  "cleaning-spray": {
+    "name": "All-Purpose Cleaning Spray, 32 oz Trigger Bottle",
+    "desc": "Ready-to-use all-purpose cleaner for desks, counters, and facilities.",
+    "brand": "Facility Care",
+    "cat": "Cleaning",
+    "specs": {
+      "Brand": "Facility Care",
+      "Size": "32 oz",
+      "Type": "Trigger Spray"
+    }
+  },
+  "desk-lamp": {
+    "name": "LED Desk Lamp, Adjustable Arm, Black",
+    "desc": "Adjustable LED desk lamp for office workstations.",
+    "brand": "Office Essentials",
+    "cat": "Furniture",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Type": "LED",
+      "Color": "Black"
+    }
+  },
+  "office-chair": {
+    "name": "Ergonomic Task Chair, Mesh Back, Black",
+    "desc": "Mesh-back task chair with adjustable height for office seating.",
+    "brand": "Office Essentials",
+    "cat": "Furniture",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Back": "Mesh",
+      "Color": "Black"
+    }
+  },
+  "filing-cabinet": {
+    "name": "2-Drawer Vertical Filing Cabinet, Letter, Metal",
+    "desc": "Letter-size 2-drawer metal filing cabinet for office storage.",
+    "brand": "Office Essentials",
+    "cat": "Furniture",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Drawers": "2",
+      "Size": "Letter"
+    }
+  },
+  "hard-hat": {
+    "name": "Safety Hard Hat, Cap Style, Yellow",
+    "desc": "Cap-style safety hard hat for jobsite and facility use.",
+    "brand": "Safety Pro",
+    "cat": "Safety",
+    "specs": {
+      "Brand": "Safety Pro",
+      "Style": "Cap",
+      "Color": "Yellow"
+    }
+  },
+  "led-bulb": {
+    "name": "LED Light Bulb, A19, Soft White, 4/Pack",
+    "desc": "Energy-efficient A19 LED bulbs for offices and facilities.",
+    "brand": "Facility Care",
+    "cat": "Electronics",
+    "specs": {
+      "Brand": "Facility Care",
+      "Type": "A19 LED",
+      "Pack": "4"
+    }
+  },
+  "coffee-maker": {
+    "name": "12-Cup Drip Coffee Maker, Black",
+    "desc": "12-cup drip coffee maker for breakrooms and offices.",
+    "brand": "Breakroom",
+    "cat": "Breakroom",
+    "specs": {
+      "Brand": "Breakroom",
+      "Capacity": "12 Cup",
+      "Color": "Black"
+    }
+  },
+  "paper-cups": {
+    "name": "Hot Paper Cups, 12 oz, 50/Pack",
+    "desc": "12 oz hot beverage paper cups for breakrooms.",
+    "brand": "Breakroom",
+    "cat": "Breakroom",
+    "specs": {
+      "Brand": "Breakroom",
+      "Size": "12 oz",
+      "Count": "50/Pack"
+    }
+  },
+  "storage-bin": {
+    "name": "Plastic Storage Bin with Lid, 15 Gallon",
+    "desc": "Rugged plastic storage bin with lid for supplies and inventory.",
+    "brand": "Facility Care",
+    "cat": "Furniture",
+    "specs": {
+      "Brand": "Facility Care",
+      "Capacity": "15 Gallon",
+      "Lid": "Included"
+    }
+  },
+  "desk": {
+    "name": "Computer Desk, 48 in, Laminate Top",
+    "desc": "48-inch laminate computer desk for home and office workstations.",
+    "brand": "Office Essentials",
+    "cat": "Furniture",
+    "specs": {
+      "Brand": "Office Essentials",
+      "Width": "48 in",
+      "Top": "Laminate"
+    }
+  }
+}
