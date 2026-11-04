@@ -22,9 +22,10 @@ function calculateTimeLeft(endTime: string) {
 }
 
 export function CountdownTimer({ endTime, className }: CountdownTimerProps) {
-  const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft(endTime));
+  const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft(new Date(0).toISOString()));
 
   useEffect(() => {
+    setTimeLeft(calculateTimeLeft(endTime));
     const interval = setInterval(() => setTimeLeft(calculateTimeLeft(endTime)), 1000);
     return () => clearInterval(interval);
   }, [endTime]);
